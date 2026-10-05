@@ -1,4 +1,6 @@
 
+# VS Code specific
 .vscode/
 
+# Database shouldn't be uploaded to the remote
 webshop.db
