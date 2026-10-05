@@ -76,7 +76,7 @@ FROM products
 WHERE price > (SELECT AVG(price) FROM products);
 
 -- 12
-SELECT name || ' costs ' || CAST(price AS INTEGER) || ' kr' AS price_list
+SELECT name || ' costs ' || CAST(ROUND(price) AS INTEGER) || ' kr' AS price_list
 FROM products
 WHERE stock > 0
 ORDER BY price DESC;
