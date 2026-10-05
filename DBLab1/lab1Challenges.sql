@@ -1,5 +1,5 @@
 
--- Extra challenges
+-- Day 1 Extra challenges
 
 -- 1
 SELECT *
@@ -37,3 +37,35 @@ FROM customers
 WHERE strftime('%Y', joined_date) IN ('2024', '2025')
 ORDER BY joined_date DESC
 LIMIT 3;
+
+-- 5
+SELECT first_name || ' ' || last_name AS full_name
+FROM customers
+ORDER BY last_name;
+
+-- 6
+SELECT *,
+       CASE
+         WHEN price < 200 THEN 'budget'
+         WHEN price < 800 THEN 'mid'
+         ELSE 'premium'
+       END AS price_level
+FROM products;
+
+-- 7
+SELECT first_name, COALESCE(city, 'Unknown') AS city
+FROM customers;
+
+-- 8
+SELECT *
+FROM customers
+WHERE strftime('%m', joined_date) <= '06';
+
+-- 9
+SELECT * FROM products
+ORDER BY LENGTH(name) DESC
+LIMIT 1;
+
+-- 10
+SELECT substr(email, 1, instr(email, '@') - 1) AS username
+FROM customers;
