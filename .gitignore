@@ -3,4 +3,5 @@
 .vscode/
 
 # Database shouldn't be uploaded to the remote
+DBFiles/
 webshop.db
