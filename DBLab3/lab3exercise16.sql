@@ -15,7 +15,7 @@ CREATE TABLE teachers (
 
 CREATE TABLE instruments (
   instrument_id INTEGER PRIMARY KEY,
-  name TEXT NOT NULL UNIQUE
+  instrument_name TEXT NOT NULL UNIQUE
 );
 
 CREATE TABLE teacher_instruments (
