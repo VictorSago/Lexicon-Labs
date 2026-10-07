@@ -67,3 +67,55 @@ CREATE TABLE campaigns (
 --VALUES ('Bad', '2026-06-10', '2026-06-01');
 /* We get error:
 CHECK constraint failed: end_date >= start_date */
+
+-- 10
+CREATE TABLE product_sizes (
+    product_size_id INTEGER PRIMARY KEY,
+    product_id INTEGER NOT NULL,
+    size TEXT NOT NULL CHECK (size IN ('S', 'M', 'L', 'XL')),
+    stock INTEGER DEFAULT 0,
+    UNIQUE (product_id, size),
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+-- The first insertion works
+INSERT INTO product_sizes (product_id, size) VALUES (1, 'M');
+-- The second fails with 
+/* UNIQUE constraint failed: product_sizes.product_id, product_sizes.size */
+--INSERT INTO product_sizes (product_id, size) VALUES (1, 'M');
+
+-- 11
+CREATE TABLE employees (
+    employee_id INTEGER PRIMARY KEY,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    manager_id INTEGER,
+    FOREIGN KEY (manager_id) REFERENCES employees(employee_id)
+);
+INSERT INTO employees (first_name, last_name, manager_id) 
+VALUES ('Boss', 'Bossman', NULL);
+
+INSERT INTO employees (first_name, last_name, manager_id) 
+VALUES 
+    ('Alice', 'Enigma', 1), 
+    ('Bob', 'Cypher', 1);
+
+-- 12
+CREATE TABLE teams (
+    team_id INTEGER PRIMARY KEY,
+    team_name TEXT NOT NULL UNIQUE
+);
+CREATE TABLE players (
+    player_id INTEGER PRIMARY KEY,
+    player_name TEXT NOT NULL UNIQUE,
+    team_id INTEGER,
+    FOREIGN KEY (team_id) REFERENCES teams(team_id) ON DELETE CASCADE
+);
+INSERT INTO teams (team_name) 
+VALUES ('Tigers');
+INSERT INTO players (player_name, team_id) 
+VALUES 
+    ('Charlie', 1), 
+    ('Diana', 1);
+
+DELETE FROM teams WHERE team_id = 1;
+SELECT * FROM players;   -- 0 rows
