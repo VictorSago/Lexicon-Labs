@@ -1,0 +1,14 @@
+
+Certain assumption had to be made. Like, a lesson is one-on-one between a student and a teacher, and only one instrument is tought in one lesson.
+
+                  ┌───────┐
+                  │ rooms │
+                  └───┬───┘
+                      │ 1:N
+┌──────────┐ 1:N ┌────┴────┐ N:1 ┌──────────┐
+│ students ├─────┤ lessons ├─────┤ teachers │
+└──────────┘     └────┬────┘     └────┬─────┘
+                      │ N:1           │ N:M
+                ┌─────┴───────┐       │
+                │ instruments ├───────┘
+                └─────────────┘

@@ -8,3 +8,4 @@ webshop.db
 
 # ERD Diagrams
 *.erd.json
+*.drawio
