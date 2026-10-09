@@ -98,3 +98,16 @@ FOREIGN KEY constraint failed
 because table order_items references this product.*/
 -- The shop could stop selling it without deleting it by setting stock to 0, or
 -- for example, adding an `active` flag.
+
+
+-- 8
+ALTER TABLE products 
+    ADD COLUMN discount_percent INTEGER NOT NULL DEFAULT 0
+        CHECK (discount_percent BETWEEN 0 AND 90);
+
+UPDATE products 
+SET discount_percent = 20 
+WHERE category = 'Shoes';
+
+SELECT *, price * (100 - discount_percent) / 100.0 AS price_after_discount
+FROM products;
