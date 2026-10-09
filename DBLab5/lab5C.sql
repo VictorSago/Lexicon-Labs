@@ -68,3 +68,33 @@ FROM order_items oi
 JOIN orders o ON o.order_id = oi.order_id
 JOIN customers c ON c.customer_id = o.customer_id
 WHERE c.email = 'leo.falk@example.com';
+
+
+-- 6
+SELECT oi.product_id, p.name, oi.quantity, p.stock
+FROM order_items oi 
+JOIN products p ON p.product_id = oi.product_id
+WHERE oi.order_id = 12;
+
+-- We ought to use transaction for the next two queries
+UPDATE orders SET status = 'cancelled' WHERE order_id = 12;
+UPDATE products
+SET stock = stock + (
+    SELECT quantity 
+    FROM order_items
+    WHERE order_id = 12 AND order_items.product_id = products.product_id
+    )
+WHERE product_id IN (
+    SELECT product_id 
+    FROM order_items 
+    WHERE order_id = 12
+    );
+
+
+-- 7
+DELETE FROM products WHERE product_id = 1;
+/* We get error:
+FOREIGN KEY constraint failed 
+because table order_items references this product.*/
+-- The shop could stop selling it without deleting it by setting stock to 0, or
+-- for example, adding an `active` flag.
