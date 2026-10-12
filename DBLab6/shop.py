@@ -29,8 +29,12 @@ def search_customers(conn):
 def add_product(conn):
     name = input("Name: ")
     category = input("Category: ")
-    price = float(input("Price: "))
-    stock = int(input("Stock: "))
+    try:                                                    # Exercice 7
+        price = float(input("Price: "))
+        stock = int(input("Stock: "))
+    except ValueError:
+        print("Price must be a number and stock a whole number. Nothing saved.")
+        return
     conn.execute(
         "INSERT INTO products (name, category, price, stock) VALUES (?, ?, ?, ?)",
         (name, category, price, stock))
@@ -39,7 +43,7 @@ def add_product(conn):
 
 
 # Exercise 5
-def change_stock(conn):                                   # Exercise 5
+def change_stock(conn):
     try:
         product_id = int(input("Product id: "))
         new_stock = int(input("New stock: "))
@@ -54,11 +58,37 @@ def change_stock(conn):                                   # Exercise 5
         print("Stock updated!")
 
 
+# Exercise 6
+def show_receipt(conn):
+    try:
+        order_id = int(input("Order id: "))
+    except ValueError:
+        print("Please enter a whole number.")
+        return
+    cursor = conn.execute(
+        """SELECT p.name, oi.quantity, oi.unit_price,
+                  oi.quantity * oi.unit_price AS line_total
+           FROM order_items oi
+           JOIN products p ON p.product_id = oi.product_id
+           WHERE oi.order_id = ?""",
+           (order_id,)
+           )
+    rows = cursor.fetchall()
+    if not rows:
+        print("No order with that id.")
+        return
+    total = 0
+    for name, quantity, unit_price, line_total in rows:
+        print(f"{name:<20} {quantity:>3} x {unit_price:>8.2f} = {line_total:>9.2f} kr")
+        total += line_total
+    print(f"{'Total':<20} {'':>16}   {total:>9.2f} kr")
+
+
 def main():
     conn = get_connection()          # was: `conn = connect()`
     while True:
         print("\n1) List products  2) Search customers  3) Add product"
-              "\n4) Change stock  0) Quit")
+              "\n4) Change stock  5) Receipt  0) Quit")
         choice = input("> ")
         if choice == "1":
             list_products(conn)
@@ -68,6 +98,8 @@ def main():
             add_product(conn)
         elif choice == "4":
             change_stock(conn)
+        elif choice == "5":
+            show_receipt(conn)
         elif choice == "0":
             break
     conn.close()
