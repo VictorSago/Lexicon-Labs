@@ -1,10 +1,20 @@
 
-# VS Code specific
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE specific
 .vscode/
+.idea/
 
 # Database shouldn't be uploaded to the remote
-DBFiles/
-webshop.db
+DBFiles/*
+*.db
+!.keep_folder
+
 
 # ERD Diagrams
 *.erd.json
