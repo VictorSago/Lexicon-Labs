@@ -84,11 +84,24 @@ def show_receipt(conn):
     print(f"{'Total':<20} {'':>16}   {total:>9.2f} kr")
 
 
+# Exercise 8
+def top_products(conn):
+    cursor = conn.execute(
+        """SELECT p.product_id, p.name, p.category, SUM(oi.quantity) as total_sold 
+        FROM order_items oi 
+        JOIN products p ON p.product_id = oi.product_id 
+        GROUP BY oi.product_id 
+        ORDER BY total_sold DESC 
+        LIMIT 3""")
+    for idx, (p_id, name, category, total_sold) in enumerate(cursor.fetchall(), start=1):
+        print(f"{idx}. {p_id:>4} {name:<20} {(category):<15} {total_sold:>5} sold")
+
+
 def main():
     conn = get_connection()          # was: `conn = connect()`
     while True:
         print("\n1) List products  2) Search customers  3) Add product"
-              "\n4) Change stock  5) Receipt  0) Quit")
+              "\n4) Change stock  5) Receipt  6) Top 3 products  0) Quit")
         choice = input("> ")
         if choice == "1":
             list_products(conn)
@@ -100,6 +113,8 @@ def main():
             change_stock(conn)
         elif choice == "5":
             show_receipt(conn)
+        elif choice == "6":
+            top_products(conn)
         elif choice == "0":
             break
     conn.close()
