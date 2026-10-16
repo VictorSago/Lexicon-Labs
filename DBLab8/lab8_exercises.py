@@ -35,9 +35,26 @@ def exercise_4():
         print(f"{p['_id']} {p['name']}")
 
 
+# Exercise 5
+def exercise_5():
+    print("--- Exercise 5 ---")
+    for p in db.products.find({"tags": "sport"}, {"name": 1, "tags": 1, "_id": 0}):
+        #print(p)
+        print(f"{p['name']}, Tags: {p['tags']}")
+
+
+# Exercise 6
+def exercise_6():
+    print("--- Exercise 6 ---")
+    for p in db.products.find({}, {"name": 1, "price": 1, "_id": 0}).sort("price", 1).limit(5):
+        print(p)
+
+
 # Running exercises
 if __name__ == "__main__":
     exercise_1()
     exercise_2()
     exercise_3()
     exercise_4()
+    exercise_5()
+    exercise_6()
