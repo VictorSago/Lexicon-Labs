@@ -50,11 +50,30 @@ def exercise_6():
         print(p)
 
 
+# Exercise 7
+def exercise_7():
+    print("--- Exercise 7 ---")
+    for o in db.orders.find({"items.product_id": 2}):
+        # print(o)
+        print("Order:", o["_id"])
+
+
+# Exercise 8
+def exercise_8():
+    print("--- Exercise 8 ---")
+    result = db.products.update_many({"category": "Accessories"}, {"$inc": {"price": 20}})
+    print(result.modified_count, "product prices have been changed.")
+    for p in db.products.find({"category": "Accessories"}):
+        print(p["name"], p["price"])
+
+
 # Running exercises
 if __name__ == "__main__":
-    exercise_1()
-    exercise_2()
-    exercise_3()
-    exercise_4()
-    exercise_5()
-    exercise_6()
+    # exercise_1()
+    # exercise_2()
+    # exercise_3()
+    # exercise_4()
+    # exercise_5()
+    # exercise_6()
+    # exercise_7()
+    exercise_8()
