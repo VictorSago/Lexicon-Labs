@@ -21,7 +21,23 @@ def exercise_2():
         print(o["_id"], o["status"])
 
 
+# Exercise 3
+def exercise_3():
+    print("--- Exercise 3 ---")
+    for c in db.customers.find({"city": {"$in": ["Stockholm", "Malmö"]}}):
+        print(f"{c['first_name']} {c['last_name']} ({c['city']})")
+
+
+# Exercise 4
+def exercise_4():
+    print("--- Exercise 4 ---")
+    for p in db.products.find({"details.color": "white"}):
+        print(f"{p['_id']} {p['name']}")
+
+
 # Running exercises
 if __name__ == "__main__":
     exercise_1()
     exercise_2()
+    exercise_3()
+    exercise_4()
