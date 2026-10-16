@@ -92,6 +92,21 @@ def exercise_8():
     print(f"There are {db.products.count_documents({})} products in thewebshp.")
 
 
+# Exercise 9
+def exercise_9():
+    print("--- Exercise 9 ---")
+    for customer in db.customers.find():
+        city = customer.get("city", "(unknown)")
+        print(f"{customer['first_name']} {customer['last_name']} ({city})")
+
+
+# Exercise 10
+def exercise_10():
+    print("--- Exercise 10 ---")
+    for order in db.orders.find():
+        print(f"Order {order['_id']}: {len(order['items'])} items")
+
+
 # Running exercises
 if __name__ == "__main__":
     exercise_1()
@@ -100,5 +115,11 @@ if __name__ == "__main__":
     exercise_4()
     exercise_5()
     exercise_6()
+    # Exercise 9 is executed before 7 to keep the expected line count
+    exercise_9()
+    # Exercise 7 inserts the same cutomer with different IDs at every call
     # exercise_7()
+    # Exercise 8 fails if performed more than once because the same IDs are 
+    # supplied with the call
     # exercise_8()
+    exercise_10()
