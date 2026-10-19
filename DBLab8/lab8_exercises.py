@@ -1,4 +1,5 @@
 
+from datetime import datetime
 from pymongo import MongoClient
 
 
@@ -67,13 +68,41 @@ def exercise_8():
         print(p["name"], p["price"])
 
 
+# Exercise 9
+def exercise_9():
+    print("--- Exercise 9 ---")
+    result = db.products.update_one(
+        {"name": "Rain Jacket"}, 
+        {
+            "$addToSet": {"tags": "new"}, 
+            "$set": {"restock_date": datetime.now()}
+        }
+    )
+    print(result.modified_count, "products have been modified.")
+    print(db.products.find_one({"name": "Rain Jacket"}))
+
+
+# Exercise 10
+def exercise_10():
+    print("--- Exercise 10 ---")
+    flt = {"status": "new", "order_date": {"$lt": datetime(2026, 3, 20)}}
+    print(db.orders.count_documents(flt))
+    result = db.orders.delete_many(flt)
+    print(result.deleted_count)
+
+
 # Running exercises
 if __name__ == "__main__":
-    # exercise_1()
-    # exercise_2()
-    # exercise_3()
-    # exercise_4()
-    # exercise_5()
-    # exercise_6()
-    # exercise_7()
-    exercise_8()
+    exercise_1()
+    exercise_2()
+    exercise_3()
+    exercise_4()
+    exercise_5()
+    exercise_6()
+    exercise_7()
+    # The exercise_8 will add 20 to the products in "Accessories" every time it's run,
+    # and the exercise_9 will modify the "restock_date" field every time it's run.
+    # Repeating exercise_10 will just return 0's.
+    # exercise_8()
+    # exercise_9()
+    # exercise_10()
