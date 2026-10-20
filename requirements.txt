@@ -1,8 +1,4 @@
-dnspython
 pymongo
-certifi
-charset-normalizer
-idna
-urllib3
-python-dotenv
 requests
+python-dotenv
+fastapi[standard]
