@@ -12,7 +12,15 @@ def get_json(url, params=None, headers=None, timeout=5):
     except requests.exceptions.ConnectionError:
         print(f"Error: could not connect to the server ({url})")
     except requests.exceptions.HTTPError as e:
-        print(f"Error: server answered {e.response.status_code} ({url})")
+        status = e.response.status_code
+        message = f"Error: server answered {status} ({url})"
+        try:
+            body = e.response.json()
+            if isinstance(body, dict) and body.get("message"):
+                message += f": {body['message']}"
+        except ValueError:
+            pass  # the error body was not JSON, keep the short message
+        print(message)
     except requests.exceptions.JSONDecodeError:
         print("Error: the answer was not valid JSON")
     except requests.exceptions.RequestException as e:
