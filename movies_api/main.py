@@ -25,6 +25,15 @@ class Movie(BaseModel):
     year: int
 
 
+def find_movie(movie_id: int):
+    for movie in movies:
+        if movie["id"] == movie_id:
+            return movie
+    raise HTTPException(status_code=404, detail="Movie not found")
+# An existing id gives code 200, a missing id gives code 404, 
+# and abc instead of an id gives code 422.
+
+
 @app.get("/movies")
 def get_movies(director: str | None = None, year: int | None = None):
     result = movies
@@ -37,10 +46,7 @@ def get_movies(director: str | None = None, year: int | None = None):
 
 @app.get("/movies/{movie_id}")
 def get_movie(movie_id: int):
-    for movie in movies:
-        if movie["id"] == movie_id:
-            return movie
-    raise HTTPException(status_code=404, detail="Movie not found")
+    return find_movie(movie_id)
 
 
 @app.post("/movies", status_code=201)
@@ -51,6 +57,13 @@ def create_movie(movie: Movie):
     return new_movie
 
 
-# Step 2:
-# An existing id gives code 200, a missing id gives code 404 (as we have 
-# defined it), and abc instead of an id gives code 422.
+@app.put("/movies/{movie_id}")
+def replace_movie(movie_id: int, movie: Movie):
+    existing = find_movie(movie_id)
+    existing.update(movie.model_dump())
+    return existing
+
+
+@app.delete("/movies/{movie_id}", status_code=204)
+def delete_movie(movie_id: int):
+    movies.remove(find_movie(movie_id))
