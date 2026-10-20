@@ -15,7 +15,9 @@ DBFiles/*
 *.db
 !.keep_folder
 
-
 # ERD Diagrams
 *.erd.json
 *.drawio
+
+# Environment variables
+.env
