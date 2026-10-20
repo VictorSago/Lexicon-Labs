@@ -17,8 +17,13 @@ movies = [
 ]
 
 @app.get("/movies")
-def get_movies():
-    return movies
+def get_movies(director: str | None = None, year: int | None = None):
+    result = movies
+    if director is not None:
+        result = [m for m in result if director.lower() in m["director"].lower()]
+    if year is not None:
+        result = [m for m in result if m["year"] == year]
+    return result
 
 
 @app.get("/movies/{movie_id}")
@@ -30,5 +35,5 @@ def get_movie(movie_id: int):
 
 
 # Step 2:
-# An existing id gives code 200, a missing id gives code 404, and abc gives 422
-
+# An existing id gives code 200, a missing id gives code 404 (as we have 
+# defined it), and abc instead of an id gives code 422.
