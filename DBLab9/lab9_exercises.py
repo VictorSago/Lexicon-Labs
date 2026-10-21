@@ -73,7 +73,34 @@ def exercise_4():
         print(row)
 
 
+# Exercise 5
+def exercise_5():
+    print("--- Exercise 5 ---")
+    pipeline = [
+        {"$group": {
+            "_id": "$category",
+            "cheapest": {"$min": "$price"},
+            "most_expensive": {"$max": "$price"},
+        }},
+    ]
+    for row in db.products.aggregate(pipeline):
+        print(row)
+
+
+# Exercise 6
+def exercise_6():
+    print("--- Exercise 6 ---")
+    pipeline = [
+        {"$group": {"_id": "$customer_id", "orders": {"$sum": 1}}},
+        {"$match": {"orders": {"$gte": 2}}},
+    ]
+    for row in db.orders.aggregate(pipeline):
+        print(row)
+
+
 # Running exercises
 if __name__ == "__main__":
     exercise_3()
     exercise_4()
+    exercise_5()
+    exercise_6()
