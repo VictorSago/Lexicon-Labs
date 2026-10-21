@@ -1,7 +1,12 @@
 
-from fastapi import FastAPI, HTTPException
+import os
+from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException, Header, Depends
 from pydantic import BaseModel
 
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 
 app = FastAPI()
 
@@ -31,6 +36,12 @@ class MovieUpdate(BaseModel):
     year: int | None = None
 
 
+def check_key(x_api_key: str | None = Header(default=None)):
+    if not API_KEY or x_api_key != API_KEY:
+        # If the API_KEY is missing or is wrong
+        raise HTTPException(status_code=401)
+
+
 def find_movie(movie_id: int):
     for movie in movies:
         if movie["id"] == movie_id:
@@ -53,7 +64,7 @@ def get_movie(movie_id: int):
     return find_movie(movie_id)
 
 
-@app.post("/movies", status_code=201)
+@app.post("/movies", status_code=201, dependencies=[Depends(check_key)])
 def create_movie(movie: Movie):
     new_id = max((m["id"] for m in movies), default=0) + 1
     new_movie = {"id": new_id, **movie.model_dump()}
@@ -61,21 +72,21 @@ def create_movie(movie: Movie):
     return new_movie
 
 
-@app.put("/movies/{movie_id}")
+@app.put("/movies/{movie_id}", dependencies=[Depends(check_key)])
 def replace_movie(movie_id: int, movie: Movie):
     existing = find_movie(movie_id)
     existing.update(movie.model_dump())
     return existing
 
 
-@app.patch("/movies/{movie_id}")
+@app.patch("/movies/{movie_id}", dependencies=[Depends(check_key)])
 def update_movie(movie_id: int, changes: MovieUpdate):
     movie = find_movie(movie_id)
     movie.update(changes.model_dump(exclude_unset=True))
     return movie
 
 
-@app.delete("/movies/{movie_id}", status_code=204)
+@app.delete("/movies/{movie_id}", status_code=204, dependencies=[Depends(check_key)])
 def delete_movie(movie_id: int):
     movies.remove(find_movie(movie_id))
 
@@ -96,3 +107,7 @@ def delete_movie(movie_id: int):
 # Use PUT when the client has the complete movie and wants to replace it, so every field must be sent
 # and anything left out is lost. Use PATCH when the client only wants to change one or a few fields,
 # so the rest of the movie stays as it was and the client doesn't need to know or resend it.
+
+# Part 3, Step 5
+# POST without a key or with a wrong key both result in status code 401.
+# Using the correct key gives status code 201 and creates a new entry.
