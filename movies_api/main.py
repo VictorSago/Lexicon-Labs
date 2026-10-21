@@ -25,13 +25,17 @@ class Movie(BaseModel):
     year: int
 
 
+class MovieUpdate(BaseModel):
+    title: str | None = None
+    director: str | None = None
+    year: int | None = None
+
+
 def find_movie(movie_id: int):
     for movie in movies:
         if movie["id"] == movie_id:
             return movie
     raise HTTPException(status_code=404, detail="Movie not found")
-# An existing id gives code 200, a missing id gives code 404, 
-# and abc instead of an id gives code 422.
 
 
 @app.get("/movies")
@@ -64,6 +68,31 @@ def replace_movie(movie_id: int, movie: Movie):
     return existing
 
 
+@app.patch("/movies/{movie_id}")
+def update_movie(movie_id: int, changes: MovieUpdate):
+    movie = find_movie(movie_id)
+    movie.update(changes.model_dump(exclude_unset=True))
+    return movie
+
+
 @app.delete("/movies/{movie_id}", status_code=204)
 def delete_movie(movie_id: int):
     movies.remove(find_movie(movie_id))
+
+
+# Part 1, Step 2
+# An existing id gives code 200, a missing id gives code 404, 
+# and abc instead of an id gives code 422.
+
+# Part 2, Step 3
+# An empty body changes nothing: The movie returned has the same information 
+# as before the call.
+# With the year written as a string the results are of two kinds: if it's an
+# integer within quotes then it's converted to int, but if it's a string that 
+# isn't a number, the method returns status code 422: Unprocessable Content.
+# With an id that doesn't exist the method returns status code 404.
+
+# Part 2, Step 4
+# Use PUT when the client has the complete movie and wants to replace it, so every field must be sent
+# and anything left out is lost. Use PATCH when the client only wants to change one or a few fields,
+# so the rest of the movie stays as it was and the client doesn't need to know or resend it.
