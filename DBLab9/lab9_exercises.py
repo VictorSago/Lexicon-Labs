@@ -1,4 +1,5 @@
 
+import json
 from pymongo import MongoClient
 from pymongo.errors import WriteError
 
@@ -98,9 +99,114 @@ def exercise_6():
         print(row)
 
 
+# Exercise 7
+def exercise_7():
+    print("--- Exercise 7 ---")
+    pipeline = [
+        {"$project": {"n_items": {"$size": "$items"}}},
+    ]
+    for row in db.orders.aggregate(pipeline):
+        print(row)
+
+
+# Exercise 8
+def exercise_8():
+    print("--- Exercise 8 ---")
+    pipeline = [
+        {"$match": {"status": {"$ne": "cancelled"}}},
+        {"$unwind": "$items"},
+        {"$lookup": {
+            "from": "products",
+            "localField": "items.product_id",
+            "foreignField": "_id",
+            "as": "product",
+        }},
+        {"$unwind": "$product"},
+        {"$group": {
+            "_id": "$product.category",
+            "units_sold": {"$sum": "$items.quantity"},
+        }},
+    ]
+    for row in db.orders.aggregate(pipeline):
+        print(row)
+
+
+# Exercise 9
+def exercise_9():
+    print("--- Exercise 9 ---")
+    pipeline = [
+        {"$unwind": "$items"},
+        {"$group": {
+            "_id": "$status",
+            "revenue": {"$sum": {"$multiply": ["$items.quantity", "$items.unit_price"]}},
+        }},
+    ]
+    for row in db.orders.aggregate(pipeline):
+        print(row)
+
+
+# Exercise 10
+def exercise_10():
+    print("--- Exercise 10 ---")
+    pipeline = [
+        {"$unwind": "$tags"},
+        {"$group": {"_id": "$tags", "count": {"$sum": 1}}},
+        {"$sort": {"count": -1, "_id": 1}},
+    ]
+    for row in db.products.aggregate(pipeline):
+        print(row)
+
+
+# Exercise 11
+def exercise_11():
+    print("--- Exercise 11 ---")
+
+    def find_orders_unsafe(request_text):
+        data = json.loads(request_text)
+        return list(db.orders.find({"status": data["status"]}))
+
+    def find_orders(request_text):
+        data = json.loads(request_text)
+        status = data.get("status")
+        if not isinstance(status, str):
+            return []
+        return list(db.orders.find({"status": status}))
+
+    normal = '{"status": "new"}'
+    attack = '{"status": {"$ne": "x"}}'
+
+    print("Unsafe:", len(find_orders_unsafe(normal)), len(find_orders_unsafe(attack)))
+    print("Safe:  ", len(find_orders(normal)), len(find_orders(attack)))
+
+
+# Exercise 12
+def exercise_12():
+    print("--- Exercise 12 ---")
+
+    def products_under(text):
+        try:
+            limit = float(text)
+        except ValueError:
+            print("Please enter a number.")
+            return []
+        return list(db.products.find(
+            {"price": {"$lt": limit}},
+            {"name": 1, "price": 1, "_id": 0},
+        ))
+
+    for text in ["300", "abc", '{"$gt": 0}']:
+        print(text, "->", products_under(text))
+
+
 # Running exercises
 if __name__ == "__main__":
-    exercise_3()
-    exercise_4()
-    exercise_5()
-    exercise_6()
+    # exercise_3()
+    # exercise_4()
+    # exercise_5()
+    # exercise_6()
+    # exercise_7()
+    # exercise_8()
+    # exercise_9()
+    # exercise_10()
+    exercise_11()
+    exercise_12()
