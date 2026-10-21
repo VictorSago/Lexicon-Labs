@@ -1,7 +1,7 @@
 
 import json
 from pymongo import MongoClient
-from pymongo.errors import WriteError
+from pymongo.errors import WriteError, ServerSelectionTimeoutError
 
 
 # Exercise 1
@@ -41,10 +41,10 @@ def exercise_3():
                 "required": ["email"],
                 "properties": {
                     "email": {"bsonType": "string"},
-                    "source": {"enum": ["web", "store"]},
-                },
+                    "source": {"enum": ["web", "store"]}
+                }
             }
-        },
+        }
     )
 
     # Valid: email is a string, source is one of the allowed values
@@ -198,15 +198,42 @@ def exercise_12():
         print(text, "->", products_under(text))
 
 
+# Exercise 13
+def exercise_13():
+    print("--- Exercise 13 ---")
+    bad_client = MongoClient("mongodb://localhost:27018/", serverSelectionTimeoutMS=2000)
+    try:
+        print(bad_client["webshop"].products.count_documents({}))
+    except ServerSelectionTimeoutError:
+        print("Cannot reach the database right now. Please try again later.")
+
+    print(db.products.count_documents({}))
+
+
+# Exercise 14
+# The personal fields in customers are first and last names, email, city, and 
+# in one case a phone number. Together they identify a real person. 
+# Because orders store only customer_id, all of that data lives in one place, 
+# so when a customer asks to be deleted, we remove one document and the orders 
+# no longer point to anyone identifiable. This also lets us keep the orders 
+# themselves, which we may be required to retain for bookkeeping, without 
+# keeping the person’s data. 
+# I would tell my classmate that it's a bad idea: copying the email and city 
+# into every order spreads personal data across many documents, so a deletion 
+# request means finding and deleting every copy, and any copy we miss is a 
+# compliance problem. The read-speed gain can be had without copying, through 
+# using $lookup on customer_id or by joining in the application.
+
 # Running exercises
 if __name__ == "__main__":
-    # exercise_3()
-    # exercise_4()
-    # exercise_5()
-    # exercise_6()
-    # exercise_7()
-    # exercise_8()
-    # exercise_9()
-    # exercise_10()
+    exercise_3()
+    exercise_4()
+    exercise_5()
+    exercise_6()
+    exercise_7()
+    exercise_8()
+    exercise_9()
+    exercise_10()
     exercise_11()
     exercise_12()
+    exercise_13()
