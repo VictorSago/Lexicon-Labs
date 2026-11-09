@@ -2,3 +2,7 @@ pymongo
 requests
 python-dotenv
 fastapi[standard]
+pandas==3.0.5
+matplotlib
+seaborn
+ipykernel
