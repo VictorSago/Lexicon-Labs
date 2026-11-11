@@ -21,3 +21,6 @@ DBFiles/*
 
 # Environment variables
 .env
+
+# Temp files and scratch
+scratch/
