@@ -6,6 +6,9 @@ __pycache__/
 .venv/
 venv/
 
+# Jupyter
+.ipynb_checkpoints/
+
 # IDE specific
 .vscode/
 .idea/
