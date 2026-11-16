@@ -1,0 +1,601 @@
+loan_id,member_id,title,genre,loan_date,return_date,late_fee,returned
+L-30001,M0150,A Second Spring,Romance,2026-01-06,2026-01-30,7.5,True
+L-30002,M0037,The Silent Harbour,Crime,2026-01-05,2026-01-25,0.0,True
+L-30003,M0143,The Glass Mage,Fantasy,2026-01-05,2026-01-26,0.0,True
+L-30004,M0121,Dead Reckoning Lane,Crime,2026-01-05,2026-01-12,0.0,True
+L-30005,M0109,Ollie Learns to Swim,Children,2026-01-06,2026-02-02,15.0,True
+L-30006,M0120,Wolves of the Old Wood,Fantasy,2026-01-07,2026-02-11,35.0,True
+L-30007,M0043,The Dragon Who Was Afraid,Children,2026-01-06,2026-01-22,0.0,True
+L-30008,M0106,A Quiet Witness,Crime,2026-01-07,2026-01-23,0.0,True
+L-30009,M0104,Mimmi and the Moon,Children,2026-01-07,2026-02-08,27.5,True
+L-30010,M0098,The Silent Harbour,Crime,2026-01-08,2026-02-06,20.0,True
+L-30011,M0055,The Long Road to Uppsala,History,2026-01-08,2026-02-15,42.5,True
+L-30012,M0057,Between the Lines,Romance,2026-01-09,2026-01-31,2.5,True
+L-30013,M0002,Night Train to Nowhere,Crime,2026-01-09,2026-01-30,0.0,True
+L-30014,M0046,Forest Friends,Children,2026-01-08,2026-02-06,20.0,True
+L-30015,M0066,Forest Friends,Children,2026-01-10,2026-02-18,45.0,True
+L-30016,M0090,Machine Winter,Sci-fi,2026-01-09,2026-01-19,0.0,True
+L-30017,M0028,The Hanseatic Road,History,2026-01-09,2026-01-30,0.0,True
+L-30018,M0018,The Brave Little Boat,Children,2026-01-10,2026-01-30,0.0,True
+L-30019,M0072,Shadow of the Tower,Fantasy,2026-01-10,2026-02-17,42.5,True
+L-30020,M0148,Orbit of Glass,Sci-fi,2026-01-11,2026-02-16,37.5,True
+L-30021,M0062,A People Remembered,History,2026-01-10,2026-01-31,0.0,True
+L-30022,M0094,Forest Friends,Children,2026-01-11,2026-01-17,0.0,True
+L-30023,M0134,The Summer House,Romance,2026-01-11,2026-02-10,22.5,True
+L-30024,M0135,The Long Road to Uppsala,History,2026-01-12,2026-02-16,35.0,True
+L-30025,M0008,A Quiet Witness,Crime,2026-01-12,2026-02-17,37.5,True
+L-30026,M0145,Salt and Iron,History,2026-01-12,2026-02-06,10.0,True
+L-30027,M0064,Harbour Lights,Romance,2026-01-12,2026-02-20,45.0,True
+L-30028,M0093,Machine Winter,Sci-fi,2026-01-13,2026-02-19,40.0,True
+L-30029,M0097,Cold Case 1987,Crime,2026-01-13,2026-01-17,0.0,True
+L-30030,M0071,Blue Moon Protocol,Sci-fi,2026-01-14,2026-01-19,0.0,True
+L-30031,M0138,The Long Road to Uppsala,History,2026-01-13,2026-02-03,0.0,True
+L-30032,M0094,Orbit of Glass,Sci-fi,2026-01-14,2026-02-23,47.5,True
+L-30033,M0083,Cold Case 1987,Crime,2026-01-15,2026-01-26,0.0,True
+L-30034,M0054,Wolves of the Old Wood,Fantasy,2026-01-14,2026-02-15,27.5,True
+L-30035,M0010,The Memory Engine,Sci-fi,2026-01-15,2026-02-12,17.5,True
+L-30036,M0090,Mimmi and the Moon,Children,2026-01-15,2026-02-11,15.0,True
+L-30037,M0119,Cold Case 1987,Crime,2026-01-16,2026-01-22,0.0,True
+L-30038,M0130,The Dragon Who Was Afraid,Children,2026-01-16,2026-02-10,10.0,True
+L-30039,M0131,Cold Case 1987,Crime,2026-01-17,2026-01-26,0.0,True
+L-30040,M0087,Salt and Iron,History,2026-01-17,2026-02-01,0.0,True
+L-30041,M0074,The Brave Little Boat,Children,2026-01-16,2026-02-17,27.5,True
+L-30042,M0141,Shadow of the Tower,Fantasy,2026-01-17,2026-02-04,0.0,True
+L-30043,M0138,The Summer House,Romance,2026-01-18,2026-01-28,0.0,True
+L-30044,M0142,The Ember Crown,Fantasy,2026-01-17,2026-02-19,30.0,True
+L-30045,M0092,Between the Lines,Romance,2026-01-17,2026-02-09,5.0,True
+L-30046,M0146,Signal from Kepler,Sci-fi,2026-01-19,2026-01-31,0.0,True
+L-30047,M0150,The Ember Crown,Fantasy,2026-01-19,2026-02-28,47.5,True
+L-30048,M0129,Letters from Lisbon,Romance,2026-01-18,2026-02-14,15.0,True
+L-30049,M0038,The Ember Crown,Fantasy,2026-01-18,2026-02-19,27.5,True
+L-30050,M0146,A Second Spring,Romance,2026-01-19,2026-02-05,0.0,True
+L-30051,M0114,The Summer House,Romance,2026-01-20,2026-02-22,30.0,True
+L-30052,M0011,A Quiet Witness,Crime,2026-01-20,2026-02-20,25.0,True
+L-30053,M0064,The Brave Little Boat,Children,2026-01-21,,0.0,False
+L-30054,M0010,Cold Case 1987,Crime,2026-01-20,2026-01-25,0.0,True
+L-30055,M0103,Night Train to Nowhere,Crime,2026-01-21,2026-01-26,0.0,True
+L-30056,M0102,The Silent Harbour,Crime,2026-01-21,2026-03-02,47.5,True
+L-30057,M0038,Cold Case 1987,Crime,2026-01-22,2026-02-18,15.0,True
+L-30058,M0106,Wolves of the Old Wood,Fantasy,2026-01-22,2026-01-29,0.0,True
+L-30059,M0088,Blue Moon Protocol,Sci-fi,2026-01-21,2026-02-25,35.0,True
+L-30060,M0071,The Locksmith,Crime,2026-01-22,2026-02-02,0.0,True
+L-30061,M0074,Wolves of the Old Wood,Fantasy,2026-01-23,2026-02-15,5.0,True
+L-30062,M0051,Kings of the North Sea,History,2026-01-22,2026-02-19,17.5,True
+L-30063,M0032,Machine Winter,Sci-fi,2026-01-23,2026-02-02,0.0,True
+L-30064,M0079,The Silent Harbour,Crime,2026-01-24,2026-02-21,17.5,True
+L-30065,M0091,The Dragon Who Was Afraid,Children,2026-01-23,2026-02-24,27.5,True
+L-30066,M0138,Cold Case 1987,Crime,2026-01-24,2026-02-25,27.5,True
+L-30067,M0114,Mimmi and the Moon,Children,2026-01-24,2026-02-07,0.0,True
+L-30068,M0006,A Quiet Witness,Crime,2026-01-24,2026-03-05,47.5,True
+L-30069,M0068,Shadow of the Tower,Fantasy,2026-01-25,,0.0,False
+L-30070,M0056,Mimmi and the Moon,Children,2026-01-26,2026-03-07,47.5,True
+L-30071,M0043,Shadow of the Tower,Fantasy,2026-01-25,2026-02-02,0.0,True
+L-30072,M0097,The Glass Mage,Fantasy,2026-01-26,2026-02-11,0.0,True
+L-30073,M0029,Ollie Learns to Swim,Children,2026-01-25,2026-03-02,37.5,True
+L-30074,M0027,The Silent Harbour,Crime,2026-01-26,2026-02-03,0.0,True
+L-30075,M0086,Signal from Kepler,Sci-fi,2026-01-26,2026-02-26,25.0,True
+L-30076,M0022,Blue Moon Protocol,Sci-fi,2026-01-27,2026-02-25,20.0,True
+L-30077,M0084,Night Train to Nowhere,Crime,2026-01-28,2026-02-09,0.0,True
+L-30078,M0035,The Brave Little Boat,Children,2026-01-28,2026-02-24,15.0,True
+L-30079,M0028,Night Train to Nowhere,Crime,2026-01-28,2026-02-17,0.0,True
+L-30080,M0085,A People Remembered,History,2026-01-27,2026-03-08,47.5,True
+L-30081,M0021,The Long Road to Uppsala,History,2026-01-29,2026-02-15,0.0,True
+L-30082,M0149,The Dragon Who Was Afraid,Children,2026-01-28,2026-02-15,0.0,True
+L-30083,M0059,The Silent Harbour,Crime,2026-01-28,2026-03-04,35.0,True
+L-30084,M0110,Ollie Learns to Swim,Children,2026-01-29,2026-02-04,0.0,True
+L-30085,M0112,Cold Case 1987,Crime,2026-01-30,2026-02-28,20.0,True
+L-30086,M0086,Harbour Lights,Romance,2026-01-29,2026-02-18,0.0,True
+L-30087,M0147,A Quiet Witness,Crime,2026-01-29,2026-03-09,45.0,True
+L-30088,M0036,Shadow of the Tower,Fantasy,2026-01-30,2026-02-08,0.0,True
+L-30089,M0077,A Quiet Witness,Crime,2026-01-30,2026-02-17,0.0,True
+L-30090,M0070,Mimmi and the Moon,Children,2026-01-30,2026-02-21,2.5,True
+L-30091,M0029,A Quiet Witness,Crime,2026-02-01,,0.0,False
+L-30092,M0144,Night Train to Nowhere,Crime,2026-02-01,,0.0,False
+L-30093,M0097,Mimmi and the Moon,Children,2026-01-31,2026-02-08,0.0,True
+L-30094,M0126,Wolves of the Old Wood,Fantasy,2026-01-31,,0.0,False
+L-30095,M0057,Signal from Kepler,Sci-fi,2026-02-02,2026-02-25,5.0,True
+L-30096,M0068,Blue Moon Protocol,Sci-fi,2026-02-01,2026-03-06,30.0,True
+L-30097,M0027,The Hanseatic Road,History,2026-02-01,2026-02-07,0.0,True
+L-30098,M0019,The Silent Harbour,Crime,2026-02-03,2026-02-24,0.0,True
+L-30099,M0113,The Hanseatic Road,History,2026-02-03,2026-03-08,30.0,True
+L-30100,M0083,Signal from Kepler,Sci-fi,2026-02-03,2026-03-01,12.5,True
+L-30101,M0026,The Silent Harbour,Crime,2026-02-03,,0.0,False
+L-30102,M0056,Ollie Learns to Swim,Children,2026-02-03,2026-02-10,0.0,True
+L-30103,M0009,The Glass Mage,Fantasy,2026-02-03,2026-03-10,35.0,True
+L-30104,M0134,Night Train to Nowhere,Crime,2026-02-04,2026-03-04,17.5,True
+L-30105,M0110,Between the Lines,Romance,2026-02-05,,0.0,False
+L-30106,M0062,Machine Winter,Sci-fi,2026-02-04,2026-02-12,0.0,True
+L-30107,M0113,Harbour Lights,Romance,2026-02-05,2026-03-17,47.5,True
+L-30108,M0090,Forest Friends,Children,2026-02-05,2026-03-15,42.5,True
+L-30109,M0030,The Memory Engine,Sci-fi,2026-02-05,2026-02-28,5.0,True
+L-30110,M0039,A Second Spring,Romance,2026-02-05,2026-02-09,0.0,True
+L-30111,M0101,Between the Lines,Romance,2026-02-05,,0.0,False
+L-30112,M0051,A Second Spring,Romance,2026-02-07,2026-03-19,47.5,True
+L-30113,M0061,A People Remembered,History,2026-02-07,2026-03-04,10.0,True
+L-30114,M0098,Kings of the North Sea,History,2026-02-06,2026-03-14,37.5,True
+L-30115,M0008,The Ember Crown,Fantasy,2026-02-07,2026-03-15,37.5,True
+L-30116,M0052,The Silent Harbour,Crime,2026-02-07,2026-03-06,15.0,True
+L-30117,M0107,Letters from Lisbon,Romance,2026-02-08,2026-03-09,20.0,True
+L-30118,M0013,Kings of the North Sea,History,2026-02-07,2026-03-09,22.5,True
+L-30119,M0024,The Dragon Who Was Afraid,Children,2026-02-09,2026-03-18,40.0,True
+L-30120,M0040,The Last Dragon Keeper,Fantasy,2026-02-09,2026-03-16,35.0,True
+L-30121,M0012,The Brave Little Boat,Children,2026-02-08,2026-02-12,0.0,True
+L-30122,M0017,Dead Reckoning Lane,Crime,2026-02-10,2026-03-16,32.5,True
+L-30123,M0084,A Second Spring,Romance,2026-02-09,2026-03-19,42.5,True
+L-30124,M0144,Cold Case 1987,Crime,2026-02-10,2026-03-09,15.0,True
+L-30125,M0016,Between the Lines,Romance,2026-02-10,2026-02-19,0.0,True
+L-30126,M0008,Forest Friends,Children,2026-02-11,2026-02-25,0.0,True
+L-30127,M0127,The Silent Harbour,Crime,2026-02-10,2026-03-08,12.5,True
+L-30128,M0019,A Quiet Witness,Crime,2026-02-10,2026-03-02,0.0,True
+L-30129,M0027,Salt and Iron,History,2026-02-11,,0.0,False
+L-30130,M0081,The Dragon Who Was Afraid,Children,2026-02-12,2026-03-18,32.5,True
+L-30131,M0098,A Second Spring,Romance,2026-02-11,2026-03-13,22.5,True
+L-30132,M0112,Between the Lines,Romance,2026-02-11,2026-02-24,0.0,True
+L-30133,M0140,The Locksmith,Crime,2026-02-12,2026-03-13,20.0,True
+L-30134,M0028,The Glass Mage,Fantasy,2026-02-13,2026-03-25,47.5,True
+L-30135,M0060,The Locksmith,Crime,2026-02-12,2026-03-23,45.0,True
+L-30136,M0051,The Silent Harbour,Crime,2026-02-13,2026-03-03,0.0,True
+L-30137,M0022,Dead Reckoning Lane,Crime,2026-02-14,2026-03-07,0.0,True
+L-30138,M0099,Orbit of Glass,Sci-fi,2026-02-14,2026-02-24,0.0,True
+L-30139,M0020,The Summer House,Romance,2026-02-14,2026-02-27,0.0,True
+L-30140,M0119,Ollie Learns to Swim,Children,2026-02-15,,0.0,False
+L-30141,M0036,Dead Reckoning Lane,Crime,2026-02-15,2026-02-21,0.0,True
+L-30142,M0029,Mimmi and the Moon,Children,2026-02-15,,0.0,False
+L-30143,M0065,The Glass Mage,Fantasy,2026-02-15,2026-03-24,40.0,True
+L-30144,M0058,The Glass Mage,Fantasy,2026-02-15,2026-03-11,7.5,True
+L-30145,M0101,Ollie Learns to Swim,Children,2026-02-15,2026-03-14,15.0,True
+L-30146,M0049,The Silent Harbour,Crime,2026-02-16,2026-02-21,0.0,True
+L-30147,M0058,Signal from Kepler,Sci-fi,2026-02-16,2026-03-10,2.5,True
+L-30148,M0103,Blue Moon Protocol,Sci-fi,2026-02-17,2026-02-28,0.0,True
+L-30149,M0093,The Brave Little Boat,Children,2026-02-17,2026-02-26,0.0,True
+L-30150,M0055,Harbour Lights,Romance,2026-02-18,2026-03-05,0.0,True
+L-30151,M0041,The Memory Engine,Sci-fi,2026-02-18,2026-03-30,47.5,True
+L-30152,M0105,Between the Lines,Romance,2026-02-18,,0.0,False
+L-30153,M0024,The Glass Mage,Fantasy,2026-02-18,2026-02-28,0.0,True
+L-30154,M0021,Between the Lines,Romance,2026-02-18,2026-03-10,0.0,True
+L-30155,M0124,The Memory Engine,Sci-fi,2026-02-18,2026-03-12,2.5,True
+L-30156,M0125,Cold Case 1987,Crime,2026-02-18,2026-03-01,0.0,True
+L-30157,M0045,The Glass Mage,Fantasy,2026-02-20,2026-04-01,47.5,True
+L-30158,M0080,Wolves of the Old Wood,Fantasy,2026-02-19,2026-03-12,0.0,True
+L-30159,M0147,Letters from Lisbon,Romance,2026-02-19,2026-02-26,0.0,True
+L-30160,M0013,Machine Winter,Sci-fi,2026-02-20,2026-03-03,0.0,True
+L-30161,M0097,Blue Moon Protocol,Sci-fi,2026-02-21,2026-03-22,20.0,True
+L-30162,M0049,Kings of the North Sea,History,2026-02-21,2026-04-02,47.5,True
+L-30163,M0035,Mimmi and the Moon,Children,2026-02-20,2026-03-25,30.0,True
+L-30164,M0068,The Brave Little Boat,Children,2026-02-21,2026-03-15,2.5,True
+L-30165,M0100,A People Remembered,History,2026-02-22,2026-03-13,0.0,True
+L-30166,M0014,Shadow of the Tower,Fantasy,2026-02-22,2026-02-26,0.0,True
+L-30167,M0033,Forest Friends,Children,2026-02-23,2026-03-12,0.0,True
+L-30168,M0033,The Dragon Who Was Afraid,Children,2026-02-23,2026-03-30,35.0,True
+L-30169,M0124,The Last Colony Ship,Sci-fi,2026-02-23,2026-03-29,32.5,True
+L-30170,M0006,The Silent Harbour,Crime,2026-02-24,2026-03-30,32.5,True
+L-30171,M0036,The Silent Harbour,Crime,2026-02-24,2026-02-28,0.0,True
+L-30172,M0016,The Summer House,Romance,2026-02-24,2026-03-03,0.0,True
+L-30173,M0042,The Long Road to Uppsala,History,2026-02-24,2026-04-03,42.5,True
+L-30174,M0110,Mimmi and the Moon,Children,2026-02-24,2026-03-31,35.0,True
+L-30175,M0122,The Last Dragon Keeper,Fantasy,2026-02-25,2026-03-11,0.0,True
+L-30176,M0032,The Dragon Who Was Afraid,Children,2026-02-24,,0.0,False
+L-30177,M0143,Cold Case 1987,Crime,2026-02-26,2026-03-22,7.5,True
+L-30178,M0060,Letters from Lisbon,Romance,2026-02-26,2026-04-03,37.5,True
+L-30179,M0072,Machine Winter,Sci-fi,2026-02-26,,0.0,False
+L-30180,M0085,Dead Reckoning Lane,Crime,2026-02-26,2026-03-07,0.0,True
+L-30181,M0138,The Long Road to Uppsala,History,2026-02-26,2026-04-03,37.5,True
+L-30182,M0024,The Silent Harbour,Crime,2026-02-27,2026-03-15,0.0,True
+L-30183,M0066,Mimmi and the Moon,Children,2026-02-27,2026-03-26,15.0,True
+L-30184,M0027,Kings of the North Sea,History,2026-02-27,2026-03-06,0.0,True
+L-30185,M0135,The Locksmith,Crime,2026-02-27,2026-03-20,0.0,True
+L-30186,M0036,Salt and Iron,History,2026-02-27,2026-03-14,0.0,True
+L-30187,M0003,The Ember Crown,Fantasy,2026-02-27,2026-03-29,22.5,True
+L-30188,M0140,Salt and Iron,History,2026-02-28,2026-03-22,2.5,True
+L-30189,M0045,Salt and Iron,History,2026-03-01,2026-03-05,0.0,True
+L-30190,M0137,The Brave Little Boat,Children,2026-02-28,2026-03-04,0.0,True
+L-30191,M0014,Wolves of the Old Wood,Fantasy,2026-03-02,2026-03-21,0.0,True
+L-30192,M0136,Wolves of the Old Wood,Fantasy,2026-03-01,2026-03-20,0.0,True
+L-30193,M0013,The Locksmith,Crime,2026-03-01,2026-03-31,22.5,True
+L-30194,M0143,A Quiet Witness,Crime,2026-03-02,2026-03-31,20.0,True
+L-30195,M0049,Blue Moon Protocol,Sci-fi,2026-03-02,2026-03-17,0.0,True
+L-30196,M0083,Night Train to Nowhere,Crime,2026-03-02,2026-03-22,0.0,True
+L-30197,M0115,Night Train to Nowhere,Crime,2026-03-02,2026-03-22,0.0,True
+L-30198,M0005,Kings of the North Sea,History,2026-03-04,2026-04-13,47.5,True
+L-30199,M0141,A Quiet Witness,Crime,2026-03-03,2026-03-26,5.0,True
+L-30200,M0099,Letters from Lisbon,Romance,2026-03-04,2026-03-30,12.5,True
+L-30201,M0046,A Quiet Witness,Crime,2026-03-04,2026-04-08,35.0,True
+L-30202,M0102,Kings of the North Sea,History,2026-03-04,2026-03-14,0.0,True
+L-30203,M0118,Harbour Lights,Romance,2026-03-04,2026-03-12,0.0,True
+L-30204,M0067,The Locksmith,Crime,2026-03-04,2026-03-30,12.5,True
+L-30205,M0149,Ollie Learns to Swim,Children,2026-03-05,2026-04-02,17.5,True
+L-30206,M0121,Blue Moon Protocol,Sci-fi,2026-03-06,2026-04-03,17.5,True
+L-30207,M0036,Between the Lines,Romance,2026-03-06,2026-04-01,12.5,True
+L-30208,M0046,Mimmi and the Moon,Children,2026-03-07,2026-04-11,35.0,True
+L-30209,M0122,Cold Case 1987,Crime,2026-03-06,2026-04-08,30.0,True
+L-30210,M0147,The Memory Engine,Sci-fi,2026-03-06,2026-04-05,22.5,True
+L-30211,M0053,Orbit of Glass,Sci-fi,2026-03-06,2026-03-28,2.5,True
+L-30212,M0141,Between the Lines,Romance,2026-03-08,2026-03-16,0.0,True
+L-30213,M0007,The Memory Engine,Sci-fi,2026-03-07,2026-04-03,15.0,True
+L-30214,M0023,The Hanseatic Road,History,2026-03-08,2026-03-16,0.0,True
+L-30215,M0060,The Brave Little Boat,Children,2026-03-09,2026-03-15,0.0,True
+L-30216,M0084,The Ember Crown,Fantasy,2026-03-09,2026-03-27,0.0,True
+L-30217,M0072,Shadow of the Tower,Fantasy,2026-03-09,2026-04-18,47.5,True
+L-30218,M0073,Between the Lines,Romance,2026-03-09,2026-04-11,30.0,True
+L-30219,M0006,Dead Reckoning Lane,Crime,2026-03-10,2026-03-27,0.0,True
+L-30220,M0068,The Locksmith,Crime,2026-03-09,2026-03-22,0.0,True
+L-30221,M0040,The Brave Little Boat,Children,2026-03-09,2026-03-19,0.0,True
+L-30222,M0137,A Quiet Witness,Crime,2026-03-11,2026-04-06,12.5,True
+L-30223,M0007,Forest Friends,Children,2026-03-11,2026-04-02,2.5,True
+L-30224,M0144,Forest Friends,Children,2026-03-10,2026-03-29,0.0,True
+L-30225,M0134,Dead Reckoning Lane,Crime,2026-03-11,2026-04-08,17.5,True
+L-30226,M0063,The Dragon Who Was Afraid,Children,2026-03-12,2026-03-20,0.0,True
+L-30227,M0044,Night Train to Nowhere,Crime,2026-03-11,2026-03-28,0.0,True
+L-30228,M0002,The Silent Harbour,Crime,2026-03-12,2026-03-24,0.0,True
+L-30229,M0145,Night Train to Nowhere,Crime,2026-03-13,2026-03-21,0.0,True
+L-30230,M0042,Letters from Lisbon,Romance,2026-03-12,2026-04-03,2.5,True
+L-30231,M0023,Shadow of the Tower,Fantasy,2026-03-12,,0.0,False
+L-30232,M0086,A Quiet Witness,Crime,2026-03-13,2026-04-12,22.5,True
+L-30233,M0142,Signal from Kepler,Sci-fi,2026-03-14,2026-04-23,47.5,True
+L-30234,M0102,The Summer House,Romance,2026-03-14,2026-04-18,35.0,True
+L-30235,M0019,The Ember Crown,Fantasy,2026-03-13,2026-04-08,12.5,True
+L-30236,M0120,Kings of the North Sea,History,2026-03-14,2026-03-23,0.0,True
+L-30237,M0133,The Ember Crown,Fantasy,2026-03-14,2026-04-17,32.5,True
+L-30238,M0023,The Locksmith,Crime,2026-03-15,2026-04-05,0.0,True
+L-30239,M0116,The Long Road to Uppsala,History,2026-03-16,,0.0,False
+L-30240,M0002,Ollie Learns to Swim,Children,2026-03-16,2026-04-05,0.0,True
+L-30241,M0082,A Quiet Witness,Crime,2026-03-16,2026-04-23,42.5,True
+L-30242,M0115,Mimmi and the Moon,Children,2026-03-16,2026-04-01,0.0,True
+L-30243,M0111,The Locksmith,Crime,2026-03-17,2026-03-23,0.0,True
+L-30244,M0090,Blue Moon Protocol,Sci-fi,2026-03-17,2026-04-09,5.0,True
+L-30245,M0148,A Second Spring,Romance,2026-03-17,2026-04-14,17.5,True
+L-30246,M0010,A People Remembered,History,2026-03-18,2026-04-10,5.0,True
+L-30247,M0043,The Ember Crown,Fantasy,2026-03-17,2026-03-26,0.0,True
+L-30248,M0008,The Last Colony Ship,Sci-fi,2026-03-17,2026-04-16,22.5,True
+L-30249,M0066,The Memory Engine,Sci-fi,2026-03-17,2026-04-12,12.5,True
+L-30250,M0005,Cold Case 1987,Crime,2026-03-19,,0.0,False
+L-30251,M0132,Ollie Learns to Swim,Children,2026-03-19,2026-04-07,0.0,True
+L-30252,M0145,The Hanseatic Road,History,2026-03-19,2026-03-27,0.0,True
+L-30253,M0120,The Summer House,Romance,2026-03-20,2026-04-13,7.5,True
+L-30254,M0068,Forest Friends,Children,2026-03-20,2026-04-16,15.0,True
+L-30255,M0150,A Quiet Witness,Crime,2026-03-20,2026-04-04,0.0,True
+L-30256,M0042,The Dragon Who Was Afraid,Children,2026-03-20,2026-03-31,0.0,True
+L-30257,M0119,The Brave Little Boat,Children,2026-03-21,2026-03-25,0.0,True
+L-30258,M0001,The Brave Little Boat,Children,2026-03-20,2026-04-26,40.0,True
+L-30259,M0090,Forest Friends,Children,2026-03-20,2026-04-14,10.0,True
+L-30260,M0138,The Summer House,Romance,2026-03-21,2026-04-09,0.0,True
+L-30261,M0143,Wolves of the Old Wood,Fantasy,2026-03-22,2026-03-29,0.0,True
+L-30262,M0052,The Last Colony Ship,Sci-fi,2026-03-21,2026-04-13,5.0,True
+L-30263,M0114,The Locksmith,Crime,2026-03-21,2026-03-29,0.0,True
+L-30264,M0106,Blue Moon Protocol,Sci-fi,2026-03-22,2026-03-29,0.0,True
+L-30265,M0122,Salt and Iron,History,2026-03-23,2026-05-01,45.0,True
+L-30266,M0057,Signal from Kepler,Sci-fi,2026-03-22,2026-04-15,7.5,True
+L-30267,M0049,The Long Road to Uppsala,History,2026-03-24,,0.0,False
+L-30268,M0062,A Quiet Witness,Crime,2026-03-24,2026-04-13,0.0,True
+L-30269,M0022,Blue Moon Protocol,Sci-fi,2026-03-23,2026-04-06,0.0,True
+L-30270,M0001,Ollie Learns to Swim,Children,2026-03-25,2026-04-14,0.0,True
+L-30271,M0022,The Locksmith,Crime,2026-03-24,,35.0,True
+L-30272,M0028,Night Train to Nowhere,Crime,2026-03-25,2026-04-20,12.5,True
+L-30273,M0085,The Brave Little Boat,Children,2026-03-24,2026-04-10,0.0,True
+L-30274,M0055,Harbour Lights,Romance,2026-03-26,2026-04-17,2.5,True
+L-30275,M0145,Shadow of the Tower,Fantasy,2026-03-26,2026-04-26,25.0,True
+L-30276,M0117,Dead Reckoning Lane,Crime,2026-03-26,2026-04-03,0.0,True
+L-30277,M0096,Cold Case 1987,Crime,2026-03-27,2026-05-01,35.0,True
+L-30278,M0069,Night Train to Nowhere,Crime,2026-03-27,2026-04-04,0.0,True
+L-30279,M0111,The Brave Little Boat,Children,2026-03-26,2026-05-04,45.0,True
+L-30280,M0067,A Second Spring,Romance,2026-03-27,2026-05-01,35.0,True
+L-30281,M0085,The Hanseatic Road,History,2026-03-27,2026-04-06,0.0,True
+L-30282,M0080,Between the Lines,Romance,2026-03-28,2026-05-07,47.5,True
+L-30283,M0077,The Summer House,Romance,2026-03-27,2026-05-02,37.5,True
+L-30284,M0015,The Hanseatic Road,History,2026-03-29,2026-04-22,7.5,True
+L-30285,M0096,Ollie Learns to Swim,Children,2026-03-29,2026-04-11,0.0,True
+L-30286,M0133,The Summer House,Romance,2026-03-29,2026-04-04,0.0,True
+L-30287,M0096,The Dragon Who Was Afraid,Children,2026-03-29,2026-04-06,0.0,True
+L-30288,M0138,The Dragon Who Was Afraid,Children,2026-03-30,2026-04-29,22.5,True
+L-30289,M0104,The Memory Engine,Sci-fi,2026-03-29,2026-04-08,0.0,True
+L-30290,M0042,The Brave Little Boat,Children,2026-03-30,2026-05-02,30.0,True
+L-30291,M0102,Forest Friends,Children,2026-03-31,2026-04-23,5.0,True
+L-30292,M0002,Signal from Kepler,Sci-fi,2026-03-31,2026-05-08,42.5,True
+L-30293,M0079,Night Train to Nowhere,Crime,2026-03-31,2026-04-11,0.0,True
+L-30294,M0059,The Dragon Who Was Afraid,Children,2026-03-30,2026-04-11,0.0,True
+L-30295,M0143,The Last Colony Ship,Sci-fi,2026-03-31,2026-04-16,0.0,True
+L-30296,M0105,The Hanseatic Road,History,2026-03-31,2026-04-18,0.0,True
+L-30297,M0040,A Second Spring,Romance,2026-04-01,2026-04-22,0.0,True
+L-30298,M0118,Machine Winter,Sci-fi,2026-04-02,2026-04-13,0.0,True
+L-30299,M0122,Signal from Kepler,Sci-fi,2026-04-01,2026-04-30,20.0,True
+L-30300,M0103,Harbour Lights,Romance,2026-04-01,2026-05-08,40.0,True
+L-30301,M0010,Salt and Iron,History,2026-04-03,2026-04-22,0.0,True
+L-30302,M0037,The Silent Harbour,Crime,2026-04-03,2026-04-09,0.0,True
+L-30303,M0110,The Locksmith,Crime,2026-04-03,2026-05-11,42.5,True
+L-30304,M0033,A Second Spring,Romance,2026-04-03,2026-05-10,40.0,True
+L-30305,M0057,Signal from Kepler,Sci-fi,2026-04-04,2026-04-08,0.0,True
+L-30306,M0030,The Locksmith,Crime,2026-04-03,2026-05-08,35.0,True
+L-30307,M0123,Wolves of the Old Wood,Fantasy,2026-04-03,2026-04-21,0.0,True
+L-30308,M0103,Orbit of Glass,Sci-fi,2026-04-04,2026-04-14,0.0,True
+L-30309,M0141,Signal from Kepler,Sci-fi,2026-04-04,2026-04-26,2.5,True
+L-30310,M0038,The Locksmith,Crime,2026-04-04,2026-04-13,0.0,True
+L-30311,M0133,Ollie Learns to Swim,Children,2026-04-05,2026-04-22,0.0,True
+L-30312,M0007,Mimmi and the Moon,Children,2026-04-05,2026-04-09,0.0,True
+L-30313,M0026,The Brave Little Boat,Children,2026-04-06,2026-04-10,0.0,True
+L-30314,M0030,The Last Dragon Keeper,Fantasy,2026-04-05,2026-04-17,0.0,True
+L-30315,M0032,Dead Reckoning Lane,Crime,2026-04-07,2026-04-11,0.0,True
+L-30316,M0082,Night Train to Nowhere,Crime,2026-04-06,2026-04-16,0.0,True
+L-30317,M0040,The Dragon Who Was Afraid,Children,2026-04-06,2026-04-15,0.0,True
+L-30318,M0092,The Brave Little Boat,Children,2026-04-07,2026-05-04,15.0,True
+L-30319,M0070,Mimmi and the Moon,Children,2026-04-07,2026-05-01,7.5,True
+L-30320,M0019,Cold Case 1987,Crime,2026-04-08,2026-05-06,17.5,True
+L-30321,M0059,The Locksmith,Crime,2026-04-07,2026-05-13,37.5,True
+L-30322,M0114,The Glass Mage,Fantasy,2026-04-09,2026-04-22,0.0,True
+L-30323,M0113,Blue Moon Protocol,Sci-fi,2026-04-08,2026-04-15,0.0,True
+L-30324,M0140,Night Train to Nowhere,Crime,2026-04-09,2026-05-11,27.5,True
+L-30325,M0037,Wolves of the Old Wood,Fantasy,2026-04-09,2026-04-22,0.0,True
+L-30326,M0013,The Last Dragon Keeper,Fantasy,2026-04-09,2026-04-14,0.0,True
+L-30327,M0142,The Silent Harbour,Crime,2026-04-09,2026-05-02,5.0,True
+L-30328,M0085,The Summer House,Romance,2026-04-10,2026-04-21,0.0,True
+L-30329,M0056,Shadow of the Tower,Fantasy,2026-04-10,2026-05-01,0.0,True
+L-30330,M0128,Letters from Lisbon,Romance,2026-04-11,2026-05-05,7.5,True
+L-30331,M0025,The Hanseatic Road,History,2026-04-11,2026-04-29,0.0,True
+L-30332,M0076,Harbour Lights,Romance,2026-04-11,2026-04-18,0.0,True
+L-30333,M0113,Kings of the North Sea,History,2026-04-11,2026-05-09,17.5,True
+L-30334,M0012,Letters from Lisbon,Romance,2026-04-11,2026-05-19,42.5,True
+L-30335,M0083,Mimmi and the Moon,Children,2026-04-11,2026-04-17,0.0,True
+L-30336,M0138,Ollie Learns to Swim,Children,2026-04-13,2026-05-22,45.0,True
+L-30337,M0094,The Ember Crown,Fantasy,2026-04-12,2026-04-24,0.0,True
+L-30338,M0053,Machine Winter,Sci-fi,2026-04-12,2026-04-16,0.0,True
+L-30339,M0024,Machine Winter,Sci-fi,2026-04-13,2026-05-13,22.5,True
+L-30340,M0064,The Locksmith,Crime,2026-04-13,2026-05-01,0.0,True
+L-30341,M0100,Wolves of the Old Wood,Fantasy,2026-04-13,2026-04-21,0.0,True
+L-30342,M0133,Wolves of the Old Wood,Fantasy,2026-04-13,2026-05-18,35.0,True
+L-30343,M0037,The Dragon Who Was Afraid,Children,2026-04-14,2026-04-22,0.0,True
+L-30344,M0081,The Ember Crown,Fantasy,2026-04-14,2026-05-09,10.0,True
+L-30345,M0115,The Dragon Who Was Afraid,Children,2026-04-14,2026-05-20,37.5,True
+L-30346,M0020,Letters from Lisbon,Romance,2026-04-15,2026-05-24,45.0,True
+L-30347,M0025,The Glass Mage,Fantasy,2026-04-15,2026-05-01,0.0,True
+L-30348,M0094,A People Remembered,History,2026-04-15,2026-05-13,17.5,True
+L-30349,M0122,The Ember Crown,Fantasy,2026-04-16,,0.0,True
+L-30350,M0019,Letters from Lisbon,Romance,2026-04-16,2026-05-25,45.0,True
+L-30351,M0130,Ollie Learns to Swim,Children,2026-04-17,2026-05-11,7.5,True
+L-30352,M0051,Harbour Lights,Romance,2026-04-16,2026-04-29,0.0,True
+L-30353,M0118,Salt and Iron,History,2026-04-17,2026-05-14,15.0,True
+L-30354,M0067,A Quiet Witness,Crime,2026-04-18,2026-05-28,47.5,True
+L-30355,M0144,The Long Road to Uppsala,History,2026-04-18,2026-04-27,0.0,True
+L-30356,M0078,The Ember Crown,Fantasy,2026-04-18,2026-05-28,47.5,True
+L-30357,M0083,Signal from Kepler,Sci-fi,2026-04-18,2026-05-22,32.5,True
+L-30358,M0097,Kings of the North Sea,History,2026-04-18,2026-04-29,0.0,True
+L-30359,M0083,Night Train to Nowhere,Crime,2026-04-18,2026-04-24,0.0,True
+L-30360,M0099,Forest Friends,Children,2026-04-19,2026-04-24,0.0,True
+L-30361,M0056,The Silent Harbour,Crime,2026-04-20,2026-05-28,42.5,True
+L-30362,M0106,Blue Moon Protocol,Sci-fi,2026-04-19,2026-05-02,0.0,True
+L-30363,M0110,Orbit of Glass,Sci-fi,2026-04-19,2026-05-06,0.0,True
+L-30364,M0015,Night Train to Nowhere,Crime,2026-04-21,2026-04-25,0.0,True
+L-30365,M0093,Dead Reckoning Lane,Crime,2026-04-20,,0.0,False
+L-30366,M0058,Signal from Kepler,Sci-fi,2026-04-20,2026-05-23,30.0,True
+L-30367,M0072,Dead Reckoning Lane,Crime,2026-04-22,2026-05-21,20.0,True
+L-30368,M0125,Signal from Kepler,Sci-fi,2026-04-22,2026-05-21,20.0,True
+L-30369,M0024,The Glass Mage,Fantasy,2026-04-21,2026-05-07,0.0,True
+L-30370,M0139,Letters from Lisbon,Romance,2026-04-23,,0.0,False
+L-30371,M0113,Wolves of the Old Wood,Fantasy,2026-04-23,2026-05-04,0.0,True
+L-30372,M0088,The Last Colony Ship,Sci-fi,2026-04-23,2026-05-20,15.0,True
+L-30373,M0001,Between the Lines,Romance,2026-04-23,2026-05-11,0.0,True
+L-30374,M0083,Signal from Kepler,Sci-fi,2026-04-23,2026-05-03,0.0,True
+L-30375,M0093,Night Train to Nowhere,Crime,2026-04-23,2026-05-18,10.0,True
+L-30376,M0031,The Last Dragon Keeper,Fantasy,2026-04-23,2026-05-08,0.0,True
+L-30377,M0016,The Hanseatic Road,History,2026-04-25,2026-05-18,5.0,True
+L-30378,M0001,Cold Case 1987,Crime,2026-04-25,2026-05-24,20.0,True
+L-30379,M0061,A Second Spring,Romance,2026-04-24,2026-05-08,0.0,True
+L-30380,M0140,The Glass Mage,Fantasy,2026-04-25,2026-05-05,0.0,True
+L-30381,M0011,Shadow of the Tower,Fantasy,2026-04-25,2026-05-12,0.0,True
+L-30382,M0115,A People Remembered,History,2026-04-25,2026-05-14,0.0,True
+L-30383,M0054,Cold Case 1987,Crime,2026-04-25,2026-05-05,0.0,True
+L-30384,M0072,The Dragon Who Was Afraid,Children,2026-04-27,2026-06-05,45.0,True
+L-30385,M0018,Night Train to Nowhere,Crime,2026-04-27,2026-06-02,37.5,True
+L-30386,M0020,The Silent Harbour,Crime,2026-04-26,2026-05-14,0.0,True
+L-30387,M0034,Blue Moon Protocol,Sci-fi,2026-04-27,2026-05-30,30.0,True
+L-30388,M0052,Machine Winter,Sci-fi,2026-04-27,2026-05-10,0.0,True
+L-30389,M0139,The Dragon Who Was Afraid,Children,2026-04-28,2026-05-14,0.0,True
+L-30390,M0003,Between the Lines,Romance,2026-04-27,2026-05-08,0.0,True
+L-30391,M0096,Night Train to Nowhere,Crime,2026-04-29,2026-06-04,37.5,True
+L-30392,M0100,The Dragon Who Was Afraid,Children,2026-04-29,2026-05-11,0.0,True
+L-30393,M0101,Forest Friends,Children,2026-04-29,,0.0,False
+L-30394,M0119,Dead Reckoning Lane,Crime,2026-04-29,2026-06-02,32.5,True
+L-30395,M0139,Machine Winter,Sci-fi,2026-04-30,2026-05-14,0.0,True
+L-30396,M0133,Mimmi and the Moon,Children,2026-04-30,2026-06-01,27.5,True
+L-30397,M0075,The Summer House,Romance,2026-04-29,2026-05-16,0.0,True
+L-30398,M0144,Ollie Learns to Swim,Children,2026-04-30,2026-05-18,0.0,True
+L-30399,M0090,A Second Spring,Romance,2026-04-30,2026-06-05,37.5,True
+L-30400,M0047,The Silent Harbour,Crime,2026-04-30,2026-05-18,0.0,True
+L-30401,M0038,Shadow of the Tower,Fantasy,2026-05-01,2026-05-15,0.0,True
+L-30402,M0059,The Dragon Who Was Afraid,Children,2026-05-01,2026-06-03,30.0,True
+L-30403,M0139,Orbit of Glass,Sci-fi,2026-05-01,2026-05-25,7.5,True
+L-30404,M0099,Blue Moon Protocol,Sci-fi,2026-05-02,2026-06-11,47.5,True
+L-30405,M0043,Blue Moon Protocol,Sci-fi,2026-05-03,2026-06-05,30.0,True
+L-30406,M0043,The Brave Little Boat,Children,2026-05-02,2026-05-27,10.0,True
+L-30407,M0099,Salt and Iron,History,2026-05-03,2026-06-10,42.5,True
+L-30408,M0131,Dead Reckoning Lane,Crime,2026-05-04,2026-06-01,17.5,True
+L-30409,M0065,The Brave Little Boat,Children,2026-05-04,2026-05-30,12.5,True
+L-30410,M0057,Harbour Lights,Romance,2026-05-03,2026-06-08,37.5,True
+L-30411,M0104,The Dragon Who Was Afraid,Children,2026-05-04,2026-05-11,0.0,True
+L-30412,M0030,Forest Friends,Children,2026-05-04,2026-06-03,22.5,True
+L-30413,M0094,A Quiet Witness,Crime,2026-05-05,2026-06-07,30.0,True
+L-30414,M0146,Letters from Lisbon,Romance,2026-05-04,2026-06-12,45.0,True
+L-30415,M0074,The Brave Little Boat,Children,2026-05-06,2026-06-04,20.0,True
+L-30416,M0150,Between the Lines,Romance,2026-05-05,2026-06-11,40.0,True
+L-30417,M0119,The Silent Harbour,Crime,2026-05-06,2026-05-29,5.0,True
+L-30418,M0086,Forest Friends,Children,2026-05-05,2026-05-25,0.0,True
+L-30419,M0004,Mimmi and the Moon,Children,2026-05-06,2026-05-18,0.0,True
+L-30420,M0055,The Summer House,Romance,2026-05-06,2026-05-13,0.0,True
+L-30421,M0123,A Quiet Witness,Crime,2026-05-07,2026-06-08,27.5,True
+L-30422,M0025,The Memory Engine,Sci-fi,2026-05-07,2026-06-14,42.5,True
+L-30423,M0040,Mimmi and the Moon,Children,2026-05-07,2026-05-26,0.0,True
+L-30424,M0037,The Brave Little Boat,Children,2026-05-08,,0.0,False
+L-30425,M0108,The Glass Mage,Fantasy,2026-05-08,2026-05-13,0.0,True
+L-30426,M0023,A Quiet Witness,Crime,2026-05-09,2026-05-27,0.0,True
+L-30427,M0134,The Silent Harbour,Crime,2026-05-09,2026-06-01,5.0,True
+L-30428,M0027,Night Train to Nowhere,Crime,2026-05-09,2026-06-04,12.5,True
+L-30429,M0145,The Brave Little Boat,Children,2026-05-09,2026-05-24,0.0,True
+L-30430,M0063,The Dragon Who Was Afraid,Children,2026-05-09,2026-06-10,27.5,True
+L-30431,M0094,The Dragon Who Was Afraid,Children,2026-05-10,2026-05-23,0.0,True
+L-30432,M0139,The Dragon Who Was Afraid,Children,2026-05-09,2026-05-17,0.0,True
+L-30433,M0095,The Last Dragon Keeper,Fantasy,2026-05-11,2026-05-28,0.0,True
+L-30434,M0009,Shadow of the Tower,Fantasy,2026-05-11,,0.0,False
+L-30435,M0142,The Brave Little Boat,Children,2026-05-10,2026-05-25,0.0,True
+L-30436,M0078,The Locksmith,Crime,2026-05-11,2026-06-05,10.0,True
+L-30437,M0096,The Glass Mage,Fantasy,2026-05-11,2026-06-13,30.0,True
+L-30438,M0029,The Last Colony Ship,Sci-fi,2026-05-12,2026-06-01,0.0,True
+L-30439,M0075,Salt and Iron,History,2026-05-13,2026-05-30,0.0,True
+L-30440,M0146,Shadow of the Tower,Fantasy,2026-05-13,2026-05-23,0.0,True
+L-30441,M0134,The Glass Mage,Fantasy,2026-05-12,2026-05-25,0.0,True
+L-30442,M0078,A People Remembered,History,2026-05-12,2026-06-20,45.0,True
+L-30443,M0032,The Last Colony Ship,Sci-fi,2026-05-13,2026-06-17,35.0,True
+L-30444,M0100,Forest Friends,Children,2026-05-14,2026-06-12,20.0,True
+L-30445,M0132,The Locksmith,Crime,2026-05-14,2026-05-19,0.0,True
+L-30446,M0001,Between the Lines,Romance,2026-05-15,2026-06-22,42.5,True
+L-30447,M0052,Shadow of the Tower,Fantasy,2026-05-14,2026-06-16,30.0,True
+L-30448,M0009,Shadow of the Tower,Fantasy,2026-05-15,2026-06-07,5.0,True
+L-30449,M0017,Night Train to Nowhere,Crime,2026-05-15,2026-05-24,0.0,True
+L-30450,M0006,Between the Lines,Romance,2026-05-15,2026-06-02,0.0,True
+L-30451,M0061,Signal from Kepler,Sci-fi,2026-05-16,2026-05-27,0.0,True
+L-30452,M0076,Night Train to Nowhere,Crime,2026-05-15,2026-06-07,5.0,True
+L-30453,M0112,Ollie Learns to Swim,Children,2026-05-16,2026-06-01,0.0,True
+L-30454,M0008,The Last Colony Ship,Sci-fi,2026-05-16,2026-06-19,32.5,True
+L-30455,M0042,Dead Reckoning Lane,Crime,2026-05-16,2026-06-13,17.5,True
+L-30456,M0020,A Second Spring,Romance,2026-05-16,2026-06-09,7.5,True
+L-30457,M0033,The Ember Crown,Fantasy,2026-05-17,,0.0,False
+L-30458,M0067,A Quiet Witness,Crime,2026-05-17,2026-06-07,0.0,True
+L-30459,M0127,Wolves of the Old Wood,Fantasy,2026-05-17,2026-05-29,0.0,True
+L-30460,M0138,Wolves of the Old Wood,Fantasy,2026-05-18,2026-06-03,0.0,True
+L-30461,M0020,A Quiet Witness,Crime,2026-05-18,2026-06-10,5.0,True
+L-30462,M0056,The Glass Mage,Fantasy,2026-05-18,2026-06-25,42.5,True
+L-30463,M0007,Blue Moon Protocol,Sci-fi,,2026-05-24,0.0,True
+L-30464,M0048,Ollie Learns to Swim,Children,2026-05-20,,0.0,False
+L-30465,M0044,Machine Winter,Sci-fi,2026-05-19,2026-06-23,35.0,True
+L-30466,M0137,A Quiet Witness,Crime,2026-05-20,2026-05-24,0.0,True
+L-30467,M0118,The Long Road to Uppsala,History,2026-05-21,2026-06-12,2.5,True
+L-30468,M0018,Blue Moon Protocol,Sci-fi,,2026-06-08,0.0,True
+L-30469,M0055,Between the Lines,Romance,2026-05-20,2026-06-10,0.0,True
+L-30470,M0116,Forest Friends,Children,2026-05-21,2026-05-27,0.0,True
+L-30471,M0035,Ollie Learns to Swim,Children,2026-05-22,2026-06-15,7.5,True
+L-30472,M0059,The Locksmith,Crime,2026-05-22,2026-06-03,0.0,True
+L-30473,M0136,The Dragon Who Was Afraid,Children,2026-05-21,2026-06-06,0.0,True
+L-30474,M0088,The Glass Mage,Fantasy,2026-05-23,2026-06-16,7.5,True
+L-30475,M0100,The Summer House,Romance,2026-05-23,2026-06-11,0.0,True
+L-30476,M0009,The Locksmith,Crime,2026-05-22,,0.0,False
+L-30477,M0042,Ollie Learns to Swim,Children,2026-05-24,2026-06-26,30.0,True
+L-30478,M0121,The Memory Engine,Sci-fi,2026-05-23,2026-06-03,0.0,True
+L-30479,M0023,The Glass Mage,Fantasy,2026-05-24,2026-06-24,25.0,True
+L-30480,M0142,Machine Winter,Sci-fi,2026-05-23,2026-06-19,15.0,True
+L-30481,M0149,The Silent Harbour,Crime,2026-05-25,2026-06-25,25.0,True
+L-30482,M0115,Night Train to Nowhere,Crime,2026-05-25,2026-06-28,32.5,True
+L-30483,M0129,The Last Dragon Keeper,Fantasy,2026-05-25,2026-06-16,2.5,True
+L-30484,M0140,The Locksmith,Crime,2026-05-25,2026-06-11,0.0,True
+L-30485,M0079,The Locksmith,Crime,2026-05-25,2026-06-26,27.5,True
+L-30486,M0037,The Locksmith,Crime,2026-05-25,2026-06-18,7.5,True
+L-30487,M0145,Wolves of the Old Wood,Fantasy,2026-05-25,2026-06-03,0.0,True
+L-30488,M0085,Wolves of the Old Wood,Fantasy,2026-05-26,2026-07-03,42.5,True
+L-30489,M0012,A Quiet Witness,Crime,2026-05-26,2026-06-22,15.0,True
+L-30490,M0088,The Last Colony Ship,Sci-fi,2026-05-26,2026-06-03,0.0,True
+L-30491,M0149,A Second Spring,Romance,2026-05-28,2026-06-17,0.0,True
+L-30492,M0002,Forest Friends,Children,2026-05-28,2026-06-01,0.0,True
+L-30493,M0144,Dead Reckoning Lane,Crime,2026-05-27,2026-07-05,45.0,True
+L-30494,M0021,Ollie Learns to Swim,Children,2026-05-27,2026-06-26,22.5,True
+L-30495,M0109,Forest Friends,Children,2026-05-28,,35.0,True
+L-30496,M0016,Dead Reckoning Lane,Crime,2026-05-29,2026-07-01,30.0,True
+L-30497,M0138,Orbit of Glass,Sci-fi,2026-05-29,2026-06-12,0.0,True
+L-30498,M0023,Cold Case 1987,Crime,2026-05-29,2026-06-27,20.0,True
+L-30499,M0115,The Locksmith,Crime,2026-05-29,2026-06-02,0.0,True
+L-30500,M0097,The Dragon Who Was Afraid,Children,2026-05-30,2026-06-14,0.0,True
+L-30501,M0004,A People Remembered,History,2026-05-31,2026-06-28,17.5,True
+L-30502,M0094,Forest Friends,Children,2026-05-31,,7.5,True
+L-30503,M0095,A Second Spring,Romance,2026-05-30,2026-07-09,47.5,True
+L-30504,M0003,The Locksmith,Crime,2026-05-30,2026-06-24,10.0,True
+L-30505,M0023,Harbour Lights,Romance,2026-05-31,2026-06-08,0.0,True
+L-30506,M0091,The Summer House,Romance,2026-05-31,2026-07-07,40.0,True
+L-30507,M0035,Mimmi and the Moon,Children,2026-06-01,2026-07-07,37.5,True
+L-30508,M0001,Cold Case 1987,Crime,2026-06-02,2026-06-08,0.0,True
+L-30509,M0033,Orbit of Glass,Sci-fi,2026-06-02,2026-07-01,20.0,True
+L-30510,M0071,Wolves of the Old Wood,Fantasy,2026-06-01,2026-06-13,0.0,True
+L-30511,M0100,The Locksmith,Crime,2026-06-02,2026-06-15,0.0,True
+L-30512,M0022,The Locksmith,Crime,2026-06-02,2026-06-22,0.0,True
+L-30513,M0118,The Brave Little Boat,Children,2026-06-03,2026-07-11,42.5,True
+L-30514,M0126,Ollie Learns to Swim,Children,2026-06-02,2026-07-02,22.5,True
+L-30515,M0004,The Memory Engine,Sci-fi,2026-06-04,2026-07-12,42.5,True
+L-30516,M0143,Dead Reckoning Lane,Crime,2026-06-03,2026-06-24,0.0,True
+L-30517,M0011,Between the Lines,Romance,2026-06-04,2026-06-18,0.0,True
+L-30518,M0004,Harbour Lights,Romance,2026-06-03,2026-06-19,0.0,True
+L-30519,M0052,A Quiet Witness,Crime,2026-06-05,2026-06-23,0.0,True
+L-30520,M0106,Blue Moon Protocol,Sci-fi,2026-06-05,2026-07-08,30.0,True
+L-30521,M0089,The Glass Mage,Fantasy,2026-06-04,2026-06-14,0.0,True
+L-30522,M0037,Shadow of the Tower,Fantasy,2026-06-06,2026-07-04,17.5,True
+L-30523,M0028,Between the Lines,Romance,2026-06-06,2026-06-24,0.0,True
+L-30524,M0012,The Summer House,Romance,2026-06-06,2026-07-01,10.0,True
+L-30525,M0139,Signal from Kepler,Sci-fi,2026-06-05,2026-06-23,0.0,True
+L-30526,M0130,Blue Moon Protocol,Sci-fi,2026-06-06,2026-06-17,0.0,True
+L-30527,M0060,The Last Colony Ship,Sci-fi,2026-06-07,2026-06-12,0.0,True
+L-30528,M0070,The Summer House,Romance,2026-06-06,2026-07-14,42.5,True
+L-30529,M0020,The Long Road to Uppsala,History,2026-06-07,2026-07-09,27.5,True
+L-30530,M0107,Orbit of Glass,Sci-fi,2026-06-08,2026-06-20,0.0,True
+L-30531,M0068,Signal from Kepler,Sci-fi,2026-06-07,2026-06-17,0.0,True
+L-30532,M0091,Letters from Lisbon,Romance,2026-06-08,2026-07-04,12.5,True
+L-30533,M0139,The Silent Harbour,Crime,2026-06-09,2026-06-21,0.0,True
+L-30534,M0103,The Last Dragon Keeper,Fantasy,2026-06-08,2026-07-10,27.5,True
+L-30535,M0080,The Locksmith,Crime,2026-06-09,2026-06-22,0.0,True
+L-30536,M0054,The Brave Little Boat,Children,2026-06-10,2026-07-03,5.0,True
+L-30537,M0002,The Last Dragon Keeper,Fantasy,2026-06-09,2026-06-17,0.0,True
+L-30538,M0111,The Brave Little Boat,Children,2026-06-10,2026-07-10,22.5,True
+L-30539,M0109,A Quiet Witness,Crime,2026-06-11,2026-07-09,17.5,True
+L-30540,M0036,Mimmi and the Moon,Children,2026-06-11,2026-06-24,0.0,True
+L-30541,M0150,Cold Case 1987,Crime,2026-06-10,2026-06-24,0.0,True
+L-30542,M0083,The Dragon Who Was Afraid,Children,2026-06-11,2026-07-10,20.0,True
+L-30543,M0066,A Second Spring,Romance,2026-06-12,2026-07-01,0.0,True
+L-30544,M0146,The Dragon Who Was Afraid,Children,2026-06-11,2026-06-21,0.0,True
+L-30545,M0141,The Summer House,Romance,2026-06-12,2026-06-27,0.0,True
+L-30546,M0010,The Last Dragon Keeper,Fantasy,2026-06-12,2026-07-14,27.5,True
+L-30547,M0012,A Quiet Witness,Crime,2026-06-12,,0.0,False
+L-30548,M0086,The Locksmith,Crime,2026-06-13,2026-06-20,0.0,True
+L-30549,M0049,Night Train to Nowhere,Crime,2026-06-12,,45.0,True
+L-30550,M0086,The Glass Mage,Fantasy,2026-06-13,2026-07-07,7.5,True
+L-30551,M0072,Mimmi and the Moon,Children,2026-06-14,2026-06-23,0.0,True
+L-30552,M0143,A Quiet Witness,Crime,2026-06-13,2026-06-30,0.0,True
+L-30553,M0099,The Brave Little Boat,Children,2026-06-15,2026-07-11,12.5,True
+L-30554,M0066,Night Train to Nowhere,Crime,2026-06-15,2026-07-24,45.0,True
+L-30555,M0081,Blue Moon Protocol,Sci-fi,2026-06-15,2026-06-27,0.0,True
+L-30556,M0122,Mimmi and the Moon,Children,2026-06-15,2026-07-13,17.5,True
+L-30557,M0014,Cold Case 1987,Crime,2026-06-16,2026-07-10,7.5,True
+L-30558,M0061,The Silent Harbour,Crime,2026-06-15,2026-07-08,5.0,True
+L-30559,M0081,Wolves of the Old Wood,Fantasy,2026-06-16,2026-07-07,0.0,True
+L-30560,M0016,Salt and Iron,History,2026-06-16,2026-07-06,0.0,True
+L-30561,M0117,Night Train to Nowhere,Crime,2026-06-17,2026-07-05,0.0,True
+L-30562,M0079,Cold Case 1987,Crime,2026-06-16,2026-07-25,45.0,True
+L-30563,M0116,Forest Friends,Children,2026-06-16,2026-07-09,5.0,True
+L-30564,M0041,Forest Friends,Children,2026-06-18,2026-07-20,27.5,True
+L-30565,M0014,Harbour Lights,Romance,2026-06-18,2026-06-30,0.0,True
+L-30566,M0147,The Long Road to Uppsala,History,2026-06-17,2026-07-07,0.0,True
+L-30567,M0119,The Dragon Who Was Afraid,Children,2026-06-19,2026-07-20,25.0,True
+L-30568,M0065,The Glass Mage,Fantasy,2026-06-19,2026-06-27,0.0,True
+L-30569,M0103,The Last Colony Ship,Sci-fi,2026-06-19,2026-07-27,42.5,True
+L-30570,M0120,Shadow of the Tower,Fantasy,2026-06-19,2026-07-22,30.0,True
+L-30571,M0008,Cold Case 1987,Crime,2026-06-19,2026-06-26,0.0,True
+L-30572,M0090,Mimmi and the Moon,Children,,2026-06-26,0.0,True
+L-30573,M0020,The Summer House,Romance,2026-06-20,2026-07-03,0.0,True
+L-30574,M0058,The Ember Crown,Fantasy,2026-06-21,2026-07-13,2.5,True
+L-30575,M0094,Mimmi and the Moon,Children,2026-06-21,2026-07-08,0.0,True
+L-30576,M0066,The Brave Little Boat,Children,2026-06-20,2026-07-21,25.0,True
+L-30577,M0016,The Dragon Who Was Afraid,Children,2026-06-21,2026-07-02,0.0,True
+L-30578,M0033,A People Remembered,History,2026-06-21,2026-07-29,42.5,True
+L-30579,M0139,The Last Colony Ship,Sci-fi,2026-06-22,2026-07-24,27.5,True
+L-30580,M0001,Blue Moon Protocol,Sci-fi,2026-06-22,,0.0,False
+L-30581,M0079,Salt and Iron,History,2026-06-22,2026-07-19,15.0,True
+L-30582,M0080,The Brave Little Boat,Children,2026-06-22,2026-07-13,0.0,True
+L-30583,M0077,The Locksmith,Crime,2026-06-23,2026-07-26,30.0,True
+L-30584,M0019,The Silent Harbour,Crime,2026-06-23,2026-07-24,25.0,True
+L-30585,M0115,The Silent Harbour,Crime,2026-06-23,2026-07-12,0.0,True
+L-30586,M0019,Wolves of the Old Wood,Fantasy,2026-06-24,2026-07-16,2.5,True
+L-30587,M0146,Mimmi and the Moon,Children,2026-06-24,2026-07-08,0.0,True
+L-30588,M0083,The Last Dragon Keeper,Fantasy,2026-06-25,2026-07-31,37.5,True
+L-30589,M0117,The Long Road to Uppsala,History,2026-06-24,,0.0,False
+L-30590,M0056,Orbit of Glass,Sci-fi,2026-06-24,2026-07-06,0.0,True
+L-30591,M0015,A Quiet Witness,Crime,2026-06-26,2026-07-17,0.0,True
+L-30592,M0088,The Last Colony Ship,Sci-fi,2026-06-26,2026-07-07,0.0,True
+L-30593,M0110,Ollie Learns to Swim,Children,2026-06-26,2026-07-20,7.5,True
+L-30594,M0118,Dead Reckoning Lane,Crime,2026-06-26,2026-07-16,0.0,True
+L-30595,M0054,A Second Spring,Romance,2026-06-26,2026-08-04,45.0,True
+L-30596,M0104,Mimmi and the Moon,Children,2026-06-27,,2.5,True
+L-30597,M0012,Kings of the North Sea,History,2026-06-26,2026-07-27,25.0,True
+L-30598,M0071,Shadow of the Tower,Fantasy,2026-06-27,2026-08-03,40.0,True
+L-30599,M0113,The Dragon Who Was Afraid,Children,2026-06-27,2026-07-16,0.0,True
+L-30600,M0092,Signal from Kepler,Sci-fi,2026-06-27,,0.0,False
