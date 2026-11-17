@@ -1,0 +1,404 @@
+rental_id,station,bike_type,helmets_text,is_member,insured,paid_online,status,coupon_code,damage_notes,late_fee_note,start_date,end_date,price,rating
+R-5020,Södermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-04-27,2026-04-29,SEK 855.50,5.0
+R-5100,Södermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-09-16,2026-09-19,"SEK 1,311.50",4.0
+R-5055,Södermalm,City bike,3 helmets,f,f,t,Completed,,,,2026-08-04,2026-08-06,SEK 350.00,
+R-5200,Södermalm,City bike,2 helmets,f,f,t,No-show,,,,2026-05-30,2026-06-02,SEK 569.50,
+R-5109,Östermalm,City bike,2 helmets,f,t,f,No-show,,,,2026-04-25,2026-04-29,SEK 828.00,
+R-5160,Södermalm,City bike,2 helmets,f,,t,Completed,,,,2026-06-10,2026-06-11,SEK 246.00,5.0
+R-5077,Central,City bike,2 helmets,f,t,f,Completed,,,,2026-07-19,2026-07-18,SEK 476.00,5.0
+R-5032,Central,E-bike,1 helmet,f,t,f,Completed,,,,2026-04-03,2026-04-08,"SEK 1,838.50",5.0
+R-5198,Södermalm,Cargo bike,2 helmets,t,t,t,Completed,,,,2026-06-05,2026-06-09,"SEK 1,555.00",4.0
+R-5342,Central,City bike,3 helmets,f,f,t,Completed,,,,2026-05-12,2026-05-13,SEK 189.50,4.0
+R-5067, Central,E-bike,2 helmets,t,f,f,Completed,,,,2026-05-17,2026-05-18,SEK 335.50,4.0
+R-5075,Central,City bike,1 helmet,f,t,f,Cancelled,,,,2026-05-10,2026-05-12,,
+R-5199,Central,City bike,1 helmet,f,t,t,Completed,,,,2026-08-23,2026-08-25,SEK 429.00,4.0
+R-5226,Kungsholmen,Cargo bike,1 child helmet,f,t,t,Completed,,,,2026-06-26,2026-07-02,"SEK 2,744.50",5.0
+R-5165,Södermalm,City bike,No helmets,f,t,t,Completed,,,,2026-03-13,2026-03-15,SEK 418.50,
+R-5204,Hammarby,City bike,1 helmet,f,t,t,Completed,,,,2026-07-27,2026-07-31,SEK 864.00,5.0
+R-5385,Central,E-bike,2 helmets,f,t,f,Completed,,,,2026-08-31,2026-09-02,SEK 845.00,5.0
+R-5129,Hammarby,City bike,2 helmets,t,t,t,Completed,,,,2026-04-01,2026-04-05,SEK 739.00,5.0
+R-5371,Södermalm,E-bike,1 helmet,t,f,t,No-show,,,,2026-05-28,2026-06-03,"SEK 2,002.00",
+R-5182,Kungsholmen,E-bike,1 helmet,f,t,t,Completed,,,,2026-05-13,2026-05-17,"SEK 1,686.00",
+R-5348,Kungsholmen,City bike,No helmets,t,f,f,No-show,,,,2026-05-03,2026-05-04,SEK 171.50,
+R-5278,Kungsholmen,E-bike,1 helmet,t,f,f,Cancelled,,,,2026-05-04,2026-05-06,,
+R-5243,Kungsholmen,E-bike,2 helmets,f,f,f,Completed,,,,2026-05-14,2026-05-15,SEK 428.00,3.0
+R-5256, Södermalm,City bike,1 helmet,f,t,f,Completed,,,,2026-09-06,2026-09-13,"SEK 1,297.00",1.0
+R-5307,Central,Cargo bike,1 helmet,f,f,t,Completed,,,,2026-06-03,2026-06-04,SEK 413.50,4.0
+R-5228,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-08-22,2026-08-24,SEK 427.00,5.0
+R-5347,Östermalm,City bike,No helmets,f,t,t,Completed,,,,2026-04-08,2026-04-13,"SEK 1,008.50",1.0
+R-5070,Kungsholmen,City bike,1 helmet,t,f,t,Completed,,,,2026-03-19,2026-03-20,SEK 174.50,5.0
+R-5276,Östermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-03-15,2026-03-16,SEK 468.00,5.0
+R-5265,Södermalm,City bike,2 helmets,f,t,t,Completed,,,,2026-04-11,2026-04-14,SEK 676.00,5.0
+R-5315,Central,City bike,2 helmets,t,f,t,Completed,,,,2026-09-09,2026-09-12,SEK 497.50,
+R-5203,Hammarby,City bike,2 helmets,f,t,f,Completed,,,,2026-06-30,2026-07-05,"SEK 1,066.00",5.0
+R-5002,Central,City bike,2 helmets,f,t,t,Cancelled,,,,2026-09-11,2026-09-13,,
+R-5025,Kungsholmen,City bike,2 helmets,f,t,t,Completed,,,,2026-03-23,2026-03-24,SEK 258.50,3.0
+R-5376,Central,E-bike,1 helmet,t,t,f,Completed,,,,2026-07-28,2026-07-29,SEK 406.00,5.0
+R-5329,Hammarby,City bike,2 helmets,f,f,t,Completed,,,,2026-08-05,2026-08-06,SEK 195.00,4.0
+R-5053,Central,City bike,2 helmets,f,f,t,Cancelled,,,,2026-06-16,2026-06-17,,
+R-5216,Östermalm,E-bike,No helmets,f,t,t,Cancelled,,,,2026-07-06,2026-07-12,,
+R-5024,Kungsholmen,City bike,No helmets,f,f,t,Completed,,,,2026-04-02,2026-04-04,SEK 343.00,5.0
+R-5069,Östermalm,City bike,1 child helmet,t,t,t,Completed,,,,2026-03-23,2026-03-27,SEK 696.00,4.0
+R-5190,Kungsholmen,City bike,2 helmets,f,t,t,Completed,,,,2026-03-18,2026-03-22,SEK 759.50,5.0
+R-5007,central,City bike,1 child helmet,t,f,t,Completed,,,,2026-07-30,2026-08-02,SEK 471.50,2.0
+R-5175,Kungsholmen,E-bike,1 helmet,f,t,t,Completed,,,,2026-04-10,2026-04-12,SEK 907.00,4.0
+R-5352,Central,City bike,No helmets,f,t,f,Completed,,,,2026-04-25,2026-04-26,SEK 233.50,4.0
+R-5350,CENTRAL,City bike,2 helmets,f,f,t,Cancelled,,,,2026-08-13,2026-08-15,,
+R-5259,Central,Cargo bike,2 helmets,f,f,t,Completed,,,,2026-06-26,2026-06-27,SEK 492.50,
+R-5028,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-07-12,2026-07-13,SEK 257.00,5.0
+R-5334,Östermalm,E-bike,No helmets,f,f,t,Completed,,,,2026-07-26,2026-08-02,"SEK 2,752.00",4.0
+R-5142,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-06-08,2026-06-12,SEK 742.00,4.0
+R-5209,Kungsholmen,Cargo bike,No helmets,f,f,t,Completed,,,,2026-03-23,2026-03-30,"SEK 2,979.50",5.0
+R-5174,Central,Cargo bike,1 child helmet,t,f,t,Completed,,,,2026-08-27,2026-08-29,SEK 806.50,5.0
+R-5327,Kungsholmen,Cargo bike,2 helmets,t,t,t,Completed,,,,2026-05-10,2026-05-11,SEK 447.00,4.0
+R-5297,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-08-28,2026-08-29,SEK 266.50,5.0
+R-5369,Östermalm,City bike,1 child helmet,f,t,t,Completed,,,,2026-07-14,2026-07-15,SEK 235.50,4.0
+R-5284,Hammarby,City bike,2 helmets,f,t,t,Completed,,,,2026-04-25,2026-04-27,SEK 438.50,
+R-5084,Central,City bike,2 helmets,f,f,f,Completed,,,,2026-06-09,2026-06-16,"SEK 1,310.00",5.0
+R-5367,Södermalm,City bike,1 child helmet,f,t,t,Completed,,,,2026-07-31,2026-08-04,SEK 785.00,5.0
+R-5379,Södermalm,City bike,No helmets,f,f,t,Completed,,,,2026-06-14,2026-06-18,SEK 754.00,5.0
+R-5335,Hammarby,E-bike,2 helmets,t,t,t,Completed,,,,2026-02-30,2026-05-27,SEK 702.00,3.0
+R-5151,Central,City bike,,f,t,t,Completed,,,,2026-07-12,2026-07-13,SEK 251.00,5.0
+R-5349,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-08-06,2026-08-11,SEK 984.50,4.0
+R-5286,Central,E-bike,1 helmet,f,f,t,Completed,,,,2026-05-24,2026-05-27,"SEK 1,160.00",5.0
+R-5317,Central,E-bike,1 helmet,f,f,t,Completed,,,,2026-04-26,2026-04-29,"SEK 1,182.00",4.0
+R-5163,Central,City bike,1 helmet,f,t,t,Cancelled,,,,2026-07-08,2026-07-10,,
+R-5157,Kungsholmen,E-bike,1 helmet,t,t,t,Completed,,,,2026-08-18,2026-08-21,"SEK 1,022.50",5.0
+R-5264,Central,E-bike,No helmets,f,t,f,Completed,,,,2026-03-04,2026-03-05,SEK 422.50,5.0
+R-5030,Central,E-bike,2 helmets,t,t,t,Completed,,,,2026-07-12,2026-07-15,"SEK 1,017.00",4.0
+R-5267,Kungsholmen,E-bike,1 child helmet,f,f,f,Completed,,,,2026-04-07,2026-04-10,"SEK 1,286.00",4.0
+R-5068,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-08-07,2026-08-13,,4.0
+R-5114,Hammarby,City bike,1 child helmet,f,f,t,Cancelled,,,,2026-07-26,2026-07-30,,
+R-5193,Central,City bike,1 helmet,f,t,f,Completed,,,,2026-08-28,2026-09-04,"SEK 1,274.50",5.0
+R-5237,Central,City bike,2 helmets,t,f,f,No-show,,,,2026-05-03,2026-05-08,SEK 791.50,
+R-5017,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-03-05,2026-03-06,SEK 241.00,5.0
+R-5251,Central ,City bike,1 helmet,t,t,t,Completed,,,,2026-06-10,2026-06-12,SEK 407.50,5.0
+R-5291,Central,E-bike,1 helmet,f,f,f,Completed,,,,2026-05-17,2026-05-20,"SEK 1,241.50",5.0
+R-5274,Kungsholmen,E-bike,2 helmets,f,f,t,Completed,,,,2026-04-05,2026-04-10,"SEK 1,787.50",
+R-5266,Central,City bike,2 helmets,t,f,t,No-show,,,,2026-06-05,2026-06-08,SEK 460.00,
+R-5089,Central,Cargo bike,1 child helmet,t,t,t,Completed,,,,2026-04-26,2026-04-27,SEK 414.00,5.0
+R-5041,Hammarby,City bike,2 helmets,f,t,f,Cancelled,,,,2026-03-22,2026-03-25,,
+R-5150,Central,City bike,2 helmets,f,f,t,Completed,,,,2026-03-25,2026-03-28,SEK 526.50,4.0
+R-5214,Hammarby,City bike,1 helmet,t,t,t,Completed,,,,2026-03-22,2026-03-26,SEK 704.50,5.0
+R-5225,Kungsholmen,E-bike,2 helmets,f,t,t,Cancelled,,,,2026-06-11,2026-06-12,,
+R-5241,Södermalm,City bike,2 helmets,f,f,f,Completed,,,,2026-04-10,2026-04-17,"SEK 1,341.00",
+R-5065,Södermalm,City bike,1 helmet,f,f,t,Completed,,,,2026-06-16,2026-06-17,SEK 206.50,5.0
+R-5178,Hammarby,City bike,No helmets,f,t,t,Completed,,,,2026-03-04,2026-03-07,SEK 637.50,
+R-5220,Kungsholmen,City bike,2 helmets,f,f,t,Completed,,,,2026-03-30,2026-03-31,SEK 174.50,5.0
+R-5146,Central,City bike,2 helmets,t,t,f,Completed,,,,2026-06-12,2026-06-16,SEK 751.50,5.0
+R-5189,Kungsholmen,E-bike,1 helmet,t,t,f,Cancelled,,,,2026-03-18,2026-03-21,,
+R-5212,Östermalm ,E-bike,No helmets,f,f,f,Completed,,,,2026-06-30,2026-07-01,SEK 355.00,5.0
+R-5194,Central,E-bike,1 helmet,f,t,f,Completed,,,,2026-04-28,2026-04-29,SEK 456.50,5.0
+R-5003,Kungsholmen,City bike,No helmets,f,t,t,Completed,,,,2026-06-06,2026-06-08,SEK 426.50,5.0
+R-5094,Central,E-bike,2 helmets,t,t,f,Completed,,,,2026-04-15,2026-04-17,SEK 660.50,5.0
+R-5119,Central,City bike,2 helmets,t,t,t,Completed,,,,2026-03-17,2026-03-24,"SEK 1,265.00",5.0
+R-5313,Central,City bike,1 child helmet,f,f,t,Completed,,,,2026-08-17,2026-08-20,SEK 530.00,
+R-5042,Kungsholmen,Cargo bike,1 helmet,f,f,f,Completed,,,,2026-05-03,2026-05-04,SEK 456.00,2.0
+R-5159,Central,E-bike,1 helmet,f,f,t,Completed,,,,2026-08-25,2026-08-26,SEK 388.50,2.0
+R-5010,Södermalm,City bike,No helmets,f,t,t,Completed,,,,2026-04-17,2026-04-20,SEK 629.00,5.0
+R-5309,Södermalm,City bike,1 helmet,t,t,f,No-show,,,,2026-07-21,2026-07-22,SEK 212.50,
+R-5289,CENTRAL,City bike,2 helmets,t,t,t,Completed,,,,2026-03-28,2026-04-04,"SEK 1,295.50",5.0
+R-5244,CENTRAL,City bike,1 helmet,f,t,t,Completed,,,,2026-03-02,2026-03-03,SEK 254.50,5.0
+R-5180,Hammarby ,City bike,1 helmet,f,t,t,Completed,,,,2026-04-30,2026-05-05,"SEK 1,042.00",3.0
+R-5066,Kungsholmen,City bike,2 helmets,f,f,f,Cancelled,,,,2026-04-16,2026-04-18,,
+R-5391,Östermalm,City bike,3 helmets,f,t,f,Cancelled,,,,2026-08-17,2026-08-18,,
+R-5275,Hammarby,City bike,No helmets,f,t,t,Completed,,,,2026-06-30,2026-07-07,"SEK 1,326.00",4.0
+R-5205,Kungsholmen,City bike,2 helmets,f,f,t,Completed,,,,2026-08-22,2026-08-27,"SEK 1,001.50",
+R-5141,Östermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-07-28,2026-07-29,SEK 241.50,5.0
+R-5012,Central,E-bike,1 helmet,f,f,f,Cancelled,,,,2026-06-23,2026-06-28,,
+R-5013,Hammarby,City bike,2 helmets,f,t,f,Completed,,,,2026-07-12,2026-07-16,SEK 811.00,4.0
+R-5377,Kungsholmen,City bike,2 helmets,f,t,f,Completed,,,,2026-08-13,2026-08-16,,5.0
+R-5181,Central,City bike,1 child helmet,t,t,t,Completed,,,,2026-06-22,2026-06-25,SEK 558.00,5.0
+R-5310,Central,City bike,1 helmet,t,f,f,No-show,,,,2026-08-23,2026-08-27,SEK 624.00,
+R-5365,Central,City bike,No helmets,f,t,t,No-show,,,,2026-08-11,2026-08-13,SEK 438.50,
+R-5336,CENTRAL,City bike,1 helmet,f,f,t,Completed,,,,2026-07-25,2026-07-28,SEK 514.50,5.0
+R-5029,Central,City bike,2 helmets,f,f,t,Completed,,,,2026-05-27,2026-06-03,"SEK 1,428.50",4.0
+R-5312,Södermalm,E-bike,1 helmet,t,f,t,Completed,,,,2026-05-14,2026-05-17,"SEK 1,066.50",5.0
+R-5346,Östermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-05-16,2026-05-18,SEK 851.00,4.0
+R-5338,Kungsholmen,E-bike,1 child helmet,f,t,t,Completed,,,,2026-05-03,2026-05-04,SEK 421.50,5.0
+R-5380,Södermalm,City bike,2 helmets,f,t,t,Completed,,,,2026-06-13,2026-06-16,SEK 628.50,
+R-5183,södermalm,City bike,1 helmet,t,t,t,Completed,,,,2026-05-20,2026-05-21,SEK 222.00,4.0
+R-5108,Hammarby,City bike,1 helmet,f,f,t,Completed,,,,2026-06-11,2026-06-15,SEK 775.00,3.0
+R-5320,Central,City bike,1 helmet,t,t,t,Completed,,,,2026-08-05,2026-08-06,SEK 227.00,4.0
+R-5179,Hammarby,E-bike,No helmets,t,t,t,Completed,,,,2026-07-22,2026-07-23,SEK 392.00,1.0
+R-5368,Central,E-bike,1 helmet,f,t,f,Completed,,,,2026-04-08,2026-04-14,"SEK 2,217.50",5.0
+R-5279,Östermalm,E-bike,1 helmet,f,f,t,Cancelled,,,,2026-09-15,2026-09-20,,
+R-5035,Södermalm,E-bike,2 helmets,t,t,t,Completed,,,,2026-09-02,2026-09-05,SEK 974.00,4.0
+R-5280,Södermalm,Cargo bike,No helmets,t,f,t,Completed,,,,2026-03-05,2026-03-07,SEK 772.50,4.0
+R-5173,Södermalm,City bike,2 helmets,t,t,t,Completed,,,,2026-08-10,2026-08-11,SEK 221.50,
+R-5230,Hammarby,City bike,No helmets,f,f,t,Completed,,,,2026-05-19,2026-05-21,SEK 378.00,5.0
+R-5099,Central,City bike,No helmets,t,f,f,Completed,,,,2026-09-13,2026-09-18,SEK 851.50,4.0
+R-5131,Kungsholmen,City bike,1 helmet,f,t,t,Completed,,,,2026-08-17,2026-08-21,SEK 856.00,4.0
+R-5112,Hammarby,E-bike,1 helmet,f,t,t,Completed,,,,2026-07-26,2026-07-28,SEK 781.00,3.0
+R-5147,södermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-04-09,2026-04-13,"SEK 1,640.00",4.0
+R-5128,Östermalm,E-bike,2 helmets,f,t,f,Completed,,,,2026-03-16,2026-03-18,SEK 788.50,4.0
+R-5161,Hammarby,E-bike,No helmets,t,t,f,Completed,,,,2026-06-23,2026-06-25,SEK 711.50,4.0
+R-5364,Kungsholmen,City bike,2 helmets,f,f,t,Completed,,,,2026-04-09,2026-04-11,SEK 367.00,5.0
+R-5269,Östermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-06-22,2026-06-26,"SEK 1,733.50",3.0
+R-5176,Södermalm,City bike,,t,f,f,Completed,,,,2026-05-10,2026-05-12,SEK 315.00,
+R-5170,Kungsholmen,Cargo bike,2 helmets,f,f,t,Completed,,,,2026-03-19,2026-03-20,SEK 491.50,5.0
+R-5098,Södermalm,E-bike,1 helmet,f,t,f,Cancelled,,,,2026-07-22,2026-07-24,,
+R-5118,Södermalm,City bike,3 helmets,t,t,f,Completed,,,,2026-06-01,2026-06-06,SEK 946.00,5.0
+R-5340,Södermalm,E-bike,,f,t,t,Completed,,,,2026-07-29,2026-08-04,"SEK 2,198.00",2.0
+R-5390,Södermalm,City bike,1 helmet,f,f,t,Completed,,,,2026-09-08,2026-09-15,"SEK 1,314.00",5.0
+R-5172,Södermalm,Cargo bike,2 helmets,f,t,t,No-show,,,,2026-09-06,2026-09-07,SEK 522.50,
+R-5060,Kungsholmen,Cargo bike,1 child helmet,f,f,t,Cancelled,,,,2026-09-15,2026-09-22,,
+R-5227,södermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-04-04,2026-04-09,"SEK 2,078.00",4.0
+R-5298,Södermalm,City bike,1 helmet,t,t,t,Completed,,,,2026-09-06,2026-09-09,SEK 558.00,5.0
+R-5011,Central,City bike,No helmets,f,t,t,Completed,,,,2026-05-03,2026-05-06,SEK 642.00,4.0
+R-5268,Södermalm,City bike,2 helmets,t,t,t,Completed,,,,2026-08-06,2026-08-08,SEK 406.50,5.0
+R-5169,Kungsholmen,City bike,No helmets,f,f,f,Cancelled,,,,2026-09-06,2026-09-09,,
+R-5188,Kungsholmen,City bike,1 child helmet,t,f,t,Completed,,,,2026-03-23,2026-03-24,SEK 154.50,5.0
+R-5235,Hammarby,E-bike,2 helmets,t,f,t,Completed,,,,2026-07-06,2026-07-07,SEK 311.00,5.0
+R-5126,Södermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-03-13,2026-03-18,SEK 980.00,
+R-5127,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-03-25,2026-03-30,SEK 916.50,4.0
+R-5057,Kungsholmen,Cargo bike,3 helmets,t,t,t,Completed,,,,2026-07-08,2026-07-10,SEK 898.50,4.0
+R-5223,Södermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-07-30,2026-08-01,SEK 413.00,5.0
+R-5192,Östermalm,Cargo bike,1 helmet,f,f,t,Completed,,,,2026-08-20,2026-08-23,"SEK 1,247.50",3.0
+R-5306,Hammarby,City bike,No helmets,f,t,t,Completed,,,,2026-08-05,2026-08-06,SEK 269.00,2.0
+R-5074,Central,E-bike,2 helmets,f,t,t,Cancelled,,,,2026-06-14,2026-06-16,,
+R-5106,Kungsholmen,E-bike,2 helmets,f,f,t,Completed,,,,2026-07-17,2026-07-22,"SEK 2,019.00",5.0
+R-5091,Kungsholmen,City bike,1 helmet,f,t,t,Completed,,,,2026-04-11,2026-04-15,SEK 861.50,5.0
+R-5294,Central,E-bike,1 helmet,f,t,f,Completed,,,,2026-04-09,2026-04-10,SEK 442.50,5.0
+R-5332,Kungsholmen,City bike,1 helmet,t,f,f,Completed,,,,2026-05-07,2026-05-14,"SEK 1,169.00",3.0
+R-5023,Kungsholmen,E-bike,1 helmet,f,t,f,Cancelled,,,,2026-05-23,2026-05-25,,
+R-5186,södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-26,2026-04-27,SEK 265.50,2.0
+R-5300,Kungsholmen,E-bike,3 helmets,f,t,t,Completed,,,,2026-06-20,2026-06-21,SEK 462.00,5.0
+R-5001,Östermalm,E-bike,1 helmet,t,t,f,Completed,,,,2026-03-31,2026-04-03,"SEK 1,123.50",5.0
+R-5301, Södermalm,City bike,2 helmets,t,t,f,Completed,,,,2026-05-13,2026-05-15,SEK 398.50,5.0
+R-5039,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-08-04,2026-08-07,SEK 571.00,3.0
+R-5111,Östermalm,City bike,2 helmets,f,f,t,Cancelled,,,,2026-08-16,2026-08-19,,
+R-5258, Kungsholmen,City bike,3 helmets,f,f,f,Cancelled,,,,2026-06-25,2026-06-27,,
+R-5394,Södermalm,Cargo bike,1 helmet,f,t,t,Cancelled,,,,2026-05-20,2026-05-25,,
+R-5054,Kungsholmen,E-bike,No helmets,f,t,t,Completed,,,,2026-03-02,2026-03-07,"SEK 2,169.00",5.0
+R-5004,Östermalm,E-bike,1 helmet,t,f,t,Cancelled,,,,2026-09-15,2026-09-16,,
+R-5104,Östermalm,E-bike,2 helmets,t,f,f,Completed,,,,2026-06-26,2026-06-30,"SEK 1,218.00",4.0
+R-5261, Central,City bike,2 helmets,f,f,t,Completed,,,,2026-09-16,2026-09-21,"SEK 1,005.50",3.0
+R-5305,Östermalm,Cargo bike,2 helmets,t,t,t,Completed,,,,2026-08-03,2026-08-04,SEK 413.00,3.0
+R-5105,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-10,2026-04-11,SEK 263.00,5.0
+R-5085,Södermalm,Cargo bike,1 helmet,f,f,f,Completed,,,,2026-03-14,2026-03-18,"SEK 1,923.00",1.0
+R-5333,Östermalm ,City bike,2 helmets,t,f,t,Cancelled,,,,2026-05-15,2026-05-16,,
+R-5171,Östermalm,Cargo bike,2 helmets,t,f,t,Completed,,,,2026-07-28,2026-07-29,SEK 377.00,5.0
+R-5215,Östermalm,E-bike,1 helmet,t,t,t,Completed,,,,2026-06-29,2026-06-30,SEK 381.00,4.0
+R-5152,Central,City bike,2 helmets,f,t,t,Cancelled,,,,2026-07-09,2026-07-10,,
+R-5166,Södermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-07-12,2026-07-18,"SEK 1,070.50",4.0
+R-5006,Södermalm,City bike,1 helmet,f,f,f,Completed,,,,2026-04-24,2026-04-26,SEK 406.50,2.0
+R-5304,Central,City bike,1 child helmet,f,t,t,Completed,,,,2026-03-09,2026-03-11,SEK 475.00,
+R-5303,Central,E-bike,No helmets,f,f,t,Completed,,,,2026-07-30,2026-08-02,"SEK 1,143.50",5.0
+R-5156,Central,City bike,2 helmets,t,t,f,Completed,,,,2026-05-07,2026-05-08,SEK 221.50,
+R-5282,Kungsholmen,Cargo bike,No helmets,f,t,t,Completed,,,,2026-08-22,2026-08-29,"SEK 3,401.00",5.0
+R-5082,Hammarby,E-bike,1 helmet,t,t,t,Completed,,,,2026-04-28,2026-04-30,SEK 745.00,
+R-5344,Södermalm,City bike,1 child helmet,f,f,t,Completed,,,,2026-05-16,2026-05-17,SEK 173.00,
+R-5071,Kungsholmen,City bike,1 child helmet,t,t,t,Completed,,,,2026-08-26,2026-08-27,SEK 232.50,5.0
+R-5236,Hammarby,City bike,1 helmet,f,t,t,Completed,,,,2026-09-10,2026-09-16,"SEK 1,232.50",5.0
+R-5375,Hammarby,E-bike,1 helmet,t,f,t,Completed,,,,2026-03-24,2026-03-25,,3.0
+R-5087,Central,E-bike,1 helmet,f,t,t,Completed,,,,2026-08-24,2026-08-25,SEK 415.50,1.0
+R-5064,Hammarby,City bike,3 helmets,t,f,t,Completed,,,,2026-08-21,2026-08-22,SEK 170.00,
+R-5014,Södermalm,E-bike,2 helmets,t,f,t,Completed,,,,2026-05-18,2026-05-23,"SEK 1,630.50",5.0
+R-5217,Kungsholmen,E-bike,No helmets,t,f,t,Completed,,,,2026-06-20,2026-06-18,SEK 334.00,4.0
+R-5222,Hammarby,E-bike,2 helmets,f,t,f,Completed,,,,2026-05-02,2026-05-03,SEK 431.00,5.0
+R-5018,Kungsholmen,City bike,2 helmets,t,t,t,Completed,,,,2026-08-27,2026-08-28,SEK 207.00,4.0
+R-5321,Central,City bike,No helmets,f,t,t,Completed,,,,2026-04-22,2026-04-26,SEK 838.00,5.0
+R-5283,Kungsholmen ,E-bike,1 helmet,f,t,f,Completed,,,,2026-08-11,2026-08-12,SEK 463.50,5.0
+R-5328,Hammarby,E-bike,1 child helmet,f,f,t,Completed,,,,2026-06-10,2026-06-11,SEK 389.50,5.0
+R-5153,Kungsholmen,Cargo bike,1 child helmet,f,f,f,Completed,,,,2026-04-30,2026-05-02,SEK 947.50,5.0
+R-5357, Södermalm,E-bike,1 helmet,f,t,t,Completed,,,,2026-07-04,2026-07-07,"SEK 1,220.00",5.0
+R-5103,Östermalm,E-bike,No helmets,f,t,f,Completed,,,,2026-06-13,2026-06-15,SEK 849.50,
+R-5240,Kungsholmen,City bike,1 child helmet,t,f,t,Cancelled,,,,2026-08-04,2026-08-05,,
+R-5154,Central,City bike,1 helmet,f,f,t,Completed,,,,2026-07-24,2026-07-25,SEK 187.00,3.0
+R-5337,Hammarby,City bike,2 helmets,f,f,t,Completed,,,,2026-06-26,2026-06-27,SEK 190.00,3.0
+R-5120,Kungsholmen,City bike,2 helmets,t,f,f,Completed,,,,2026-03-23,2026-03-26,SEK 439.00,4.0
+R-5362,Central,E-bike,1 helmet,f,f,t,Completed,,,,2026-04-03,2026-04-06,"SEK 1,216.00",
+R-5262,CENTRAL,City bike,1 helmet,f,f,t,Completed,,,,2026-07-14,2026-07-18,SEK 770.00,3.0
+R-5144,Central,E-bike,1 helmet,f,t,t,Completed,,,,2026-08-26,2026-08-27,SEK 457.50,
+R-5221,Södermalm,City bike,No helmets,t,t,t,Completed,,,,2026-08-03,2026-08-06,SEK 563.50,5.0
+R-5044,Södermalm,E-bike,2 helmets,f,f,t,Completed,,,,2026-09-06,2026-09-11,"SEK 1,927.00",3.0
+R-5113,Kungsholmen,City bike,1 child helmet,f,f,t,Completed,,,,2026-06-30,2026-07-03,SEK 561.50,5.0
+R-5134,Södermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-06-23,2026-06-25,SEK 351.50,3.0
+R-5140,Hammarby,City bike,2 helmets,f,f,f,Completed,,,,2026-03-20,2026-03-21,SEK 204.00,4.0
+R-5093,Hammarby,City bike,1 helmet,t,f,t,Completed,,,,2026-05-08,2026-05-11,SEK 475.00,2.0
+R-5101,Östermalm,E-bike,No helmets,t,t,t,Completed,,,,2026-03-14,2026-03-17,"SEK 1,087.50",2.0
+R-5210,Central,City bike,3 helmets,f,t,f,Completed,,,,2026-06-11,2026-06-15,SEK 834.50,5.0
+R-5133,Central,City bike,1 child helmet,t,t,t,Completed,,,,2026-05-11,2026-05-13,SEK 374.50,5.0
+R-5005,Södermalm,Cargo bike,2 helmets,f,t,f,Completed,,,,2026-03-04,2026-03-07,"SEK 1,359.50",5.0
+R-5339,Södermalm,E-bike,1 helmet,f,f,t,Completed,,,,2026-08-05,2026-08-07,SEK 813.00,5.0
+R-5130,Östermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-07-23,2026-07-24,SEK 174.50,4.0
+R-5079,Södermalm,City bike,2 helmets,f,t,f,Completed,,,,2026-09-07,2026-09-08,SEK 256.00,
+R-5382,Hammarby,City bike,1 helmet,f,t,f,Completed,,,,2026-06-19,2026-06-25,"SEK 1,270.50",5.0
+R-5155, Central,E-bike,3 helmets,t,t,t,Completed,,,,2026-05-15,2026-05-20,"SEK 1,873.50",
+R-5115,Södermalm,City bike,2 helmets,f,t,t,Cancelled,,,,2026-04-17,2026-04-23,,
+R-5270,Södermalm,City bike,No helmets,f,f,t,Completed,,,,2026-05-31,2026-06-05,SEK 856.00,3.0
+R-5281,Södermalm,City bike,1 child helmet,f,f,f,Completed,,,,2026-06-19,2026-06-21,SEK 371.50,3.0
+R-5117,Södermalm,E-bike,2 helmets,f,f,t,Completed,,,,2026-07-02,2026-07-04,SEK 775.50,5.0
+R-5206,Södermalm,City bike,1 helmet,f,f,f,Cancelled,,,,2026-04-24,2026-04-26,,
+R-5386,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-16,2026-04-17,SEK 264.50,3.0
+R-5353,Södermalm,City bike,1 helmet,t,f,f,Completed,,,,2026-04-15,2026-04-18,SEK 454.50,4.0
+R-5184,SÖDERMALM,E-bike,1 child helmet,t,t,t,Completed,,,,2026-07-27,2026-07-30,"SEK 1,020.00",
+R-5253,Östermalm,City bike,2 helmets,t,f,t,Completed,,,,2026-05-27,2026-06-02,SEK 999.00,5.0
+R-5381,central,City bike,2 helmets,f,t,t,Cancelled,,,,2026-03-18,2026-03-21,,
+R-5040,Central,E-bike,1 child helmet,t,f,f,Cancelled,,,,2026-07-31,2026-08-05,,
+R-5322,Södermalm,Cargo bike,2 helmets,f,t,f,Completed,,,,2026-04-12,2026-04-18,"SEK 2,839.50",5.0
+R-5090,Hammarby,City bike,1 child helmet,f,t,t,Completed,,,,2026-04-24,2026-04-27,SEK 612.50,5.0
+R-5345,Central,City bike,No helmets,f,t,t,No-show,,,,2026-07-14,2026-07-15,SEK 247.00,
+R-5231,Östermalm,City bike,2 helmets,f,,t,Completed,,,,2026-07-19,2026-07-20,,
+R-5232,Kungsholmen,City bike,1 helmet,f,t,t,Completed,,,,2026-07-25,2026-07-31,"SEK 1,187.50",5.0
+R-5383,Södermalm,E-bike,No helmets,f,t,f,Completed,,,,2026-07-08,2026-07-11,"SEK 1,329.50",5.0
+R-5242,Södermalm,Cargo bike,2 helmets,f,f,t,Completed,,,,2026-07-04,2026-07-09,"SEK 2,458.50",4.0
+R-5164,Kungsholmen,E-bike,3 helmets,f,t,f,Completed,,,,2026-07-27,2026-07-31,"SEK 1,524.00",5.0
+R-5314,Hammarby,City bike,1 helmet,t,t,f,Completed,,,,2026-09-13,2026-09-18,SEK 807.50,
+R-5009,Södermalm,City bike,3 helmets,f,f,t,Completed,,,,2026-03-03,2026-03-04,SEK 194.00,5.0
+R-5037,Central,City bike,1 helmet,f,f,t,Completed,,,,2026-07-01,2026-07-08,"SEK 1,338.00",3.0
+R-5208,Hammarby,E-bike,2 helmets,f,f,f,Completed,,,,2026-03-27,2026-03-29,SEK 758.50,4.0
+R-5045,Kungsholmen,City bike,1 child helmet,f,t,t,Cancelled,,,,2026-04-08,2026-04-10,,
+R-5395,Kungsholmen,City bike,2 helmets,t,t,f,Completed,,,,2026-06-18,2026-06-20,SEK 413.00,4.0
+R-5277,Central,City bike,1 helmet,t,f,t,Completed,,,,2026-04-12,2026-04-18,"SEK 1,017.00",
+R-5330,Södermalm ,Cargo bike,2 helmets,t,t,t,Completed,,,,2026-05-20,2026-05-25,"SEK 2,003.00",4.0
+R-5399,Södermalm,E-bike,1 helmet,t,t,t,Cancelled,,,,2026-06-19,2026-06-20,,
+R-5036,Central,City bike,2 helmets,t,t,t,Completed,,,,2026-04-18,2026-04-21,SEK 540.00,5.0
+R-5048,Östermalm,City bike,3 helmets,f,f,t,Completed,,,,2026-04-01,2026-04-04,SEK 523.50,4.0
+R-5145,Central,City bike,3 helmets,f,f,t,Completed,,,,2026-08-14,2026-08-15,SEK 199.50,5.0
+R-5122,Kungsholmen,E-bike,2 helmets,f,t,f,No-show,,,,2026-09-10,2026-09-14,"SEK 1,584.00",
+R-5285,Södermalm,E-bike,2 helmets,f,t,t,Completed,,,,2026-08-04,2026-08-05,SEK 459.50,5.0
+R-5388,Södermalm,E-bike,,t,f,t,Completed,,,,2026-08-17,2026-08-22,"SEK 1,710.50",4.0
+R-5384,Östermalm,City bike,1 child helmet,f,f,t,Completed,,,,2026-09-09,2026-09-13,SEK 723.00,3.0
+R-5197,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-03-27,2026-03-29,SEK 372.50,5.0
+R-5257,Östermalm,Cargo bike,No helmets,f,f,t,Completed,,,,2026-07-19,2026-07-23,"SEK 1,703.50",4.0
+R-5139,Östermalm,E-bike,1 child helmet,f,t,t,Completed,,,,2026-06-01,2026-06-05,"SEK 1,636.50",3.0
+R-5370,Kungsholmen,City bike,2 helmets,t,f,t,Completed,,,,2026-07-07,2026-07-10,SEK 473.00,5.0
+R-5331,Hammarby,City bike,No helmets,f,f,t,Completed,,,,2026-06-16,2026-06-18,SEK 358.50,4.0
+R-5107,Södermalm,E-bike,No helmets,f,t,t,Completed,,,,2026-08-03,2026-08-05,SEK 770.50,4.0
+R-5008,Central,City bike,1 helmet,f,f,t,Completed,,,,2026-09-11,2026-09-12,SEK 194.00,5.0
+R-5372,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-20,2026-04-22,SEK 448.00,5.0
+R-5378,Östermalm,E-bike,1 helmet,f,t,f,Completed,,,,2026-08-14,2026-08-21,"SEK 2,941.00",2.0
+R-5366,Kungsholmen,City bike,1 child helmet,f,f,t,Cancelled,,,,2026-07-01,2026-07-02,,
+R-5191,Kungsholmen,E-bike,1 child helmet,t,f,t,Completed,,,,2026-03-28,2026-04-01,"SEK 1,247.50",4.0
+R-5234,Södermalm,City bike,No helmets,t,f,t,Completed,,,,2026-03-16,2026-03-19,SEK 495.00,5.0
+R-5021,Kungsholmen,Cargo bike,2 helmets,f,t,t,Completed,,,,2026-03-12,2026-03-18,"SEK 2,797.50",5.0
+R-5374,Östermalm,E-bike,2 helmets,f,f,t,Completed,,,,2026-04-26,2026-04-30,"SEK 1,671.00",5.0
+R-5272,Södermalm,E-bike,2 helmets,f,f,f,Completed,,,,2026-03-28,2026-03-29,SEK 365.50,5.0
+R-5393,Södermalm,Cargo bike,1 helmet,f,t,t,No-show,,,,2026-06-13,2026-06-17,"SEK 1,702.00",
+R-5290,ÖSTERMALM,City bike,1 helmet,f,t,t,Cancelled,,,,2026-06-15,2026-06-22,,
+R-5078,Hammarby,E-bike,1 child helmet,f,t,t,Completed,,,,2026-08-13,2026-08-17,"SEK 1,680.50",4.0
+R-5046,Södermalm,E-bike,2 helmets,f,t,t,Cancelled,,,,2026-07-11,2026-07-14,,
+R-5355,Östermalm,Cargo bike,1 helmet,f,t,t,Completed,,,,2026-05-23,2026-05-29,"SEK 2,600.00",5.0
+R-5318,Östermalm,City bike,1 helmet,t,f,f,Completed,,,,2026-08-03,2026-08-04,SEK 169.50,4.0
+R-5361,Östermalm,City bike,1 child helmet,f,t,t,Completed,,,,2026-04-07,2026-04-13,"SEK 1,236.00",2.0
+R-5219,Södermalm,City bike,1 helmet,f,f,t,No-show,,,,2026-06-04,2026-06-05,SEK 177.00,
+R-5356,Hammarby,City bike,2 helmets,f,f,t,Completed,,,,2026-07-29,2026-07-31,SEK 349.00,4.0
+R-5249,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-08-09,2026-08-16,"SEK 1,400.00",5.0
+R-5135,Central,Cargo bike,1 child helmet,t,f,t,Completed,,,,2026-05-29,2026-05-31,SEK 806.00,3.0
+R-5201,Östermalm,City bike,2 helmets,f,f,f,Completed,,,,2026-05-06,2026-05-08,SEK 413.50,
+R-5396,Östermalm,City bike,3 helmets,f,f,t,No-show,,,,2026-03-13,2026-03-14,SEK 192.50,
+R-5110,Södermalm,E-bike,2 helmets,f,f,t,Completed,,,,2026-05-08,2026-05-09,SEK 365.50,
+R-5392,Östermalm,E-bike,1 helmet,f,f,f,Completed,,,,2026-04-10,2026-04-13,"SEK 1,158.50",5.0
+R-5063,Central,E-bike,2 helmets,t,t,f,Completed,,,,2026-06-31,2026-08-09,SEK 755.50,5.0
+R-5292,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-06-15,2026-06-17,SEK 437.50,4.0
+R-5092,Hammarby,Cargo bike,1 helmet,f,f,t,Completed,,,,2026-06-17,2026-06-23,"SEK 2,850.50",2.0
+R-5245,Central,City bike,1 helmet,f,t,t,Completed,,,,2026-07-11,2026-07-15,SEK 856.50,5.0
+R-5062,Kungsholmen,E-bike,1 child helmet,t,t,t,Completed,,,,2026-05-24,2026-05-29,"SEK 1,665.00",5.0
+R-5000,Hammarby,E-bike,1 child helmet,f,f,f,Completed,,,,2026-04-28,2026-04-29,SEK 427.50,4.0
+R-5027,Central,E-bike,2 helmets,t,t,t,Completed,,,,2026-09-13,2026-09-18,"SEK 1,636.50",1.0
+R-5373,Östermalm,City bike,2 helmets,f,t,t,Completed,,,,2026-05-24,2026-05-31,"SEK 1,307.50",3.0
+R-5250,Östermalm,E-bike,1 helmet,t,f,t,Completed,,,,2026-03-28,2026-03-30,SEK 601.00,5.0
+R-5177,Hammarby,City bike,1 helmet,t,f,t,Completed,,,,2026-06-12,2026-06-13,SEK 159.50,5.0
+R-5187,Kungsholmen,Cargo bike,1 helmet,f,t,t,Completed,,,,2026-03-09,2026-03-10,SEK 502.50,5.0
+R-5148, Södermalm,City bike,1 helmet,t,t,t,Completed,,,,2026-08-12,2026-08-15,SEK 547.00,
+R-5239,Kungsholmen,City bike,1 helmet,f,f,t,Completed,,,,2026-08-05,2026-08-08,SEK 582.00,5.0
+R-5354,Hammarby,City bike,No helmets,t,t,t,Completed,,,,2026-04-29,2026-05-01,SEK 385.50,
+R-5341,Södermalm,City bike,2 helmets,f,f,f,Completed,,,,2026-08-13,2026-08-15,SEK 384.50,5.0
+R-5158,Södermalm,E-bike,No helmets,f,t,t,Completed,,,,2026-04-06,2026-04-11,"SEK 1,921.50",4.0
+R-5143,Kungsholmen,City bike,1 helmet,f,f,t,No-show,,,,2026-05-28,2026-05-29,SEK 172.50,
+R-5273, Central,Cargo bike,No helmets,f,f,t,Completed,,,,2026-04-09,2026-04-10,SEK 484.00,
+R-5059,Central ,City bike,1 helmet,f,f,f,Completed,,,,2026-05-12,2026-05-13,SEK 195.50,3.0
+R-5202,Södermalm,E-bike,2 helmets,f,f,t,Completed,,,,2026-08-07,2026-08-09,SEK 761.00,4.0
+R-5208,Hammarby,E-bike,2 helmets,f,f,f,Completed,,,,2026-03-27,2026-03-29,SEK 758.50,4.0
+R-5343,Östermalm,City bike,No helmets,f,f,t,No-show,,,,2026-04-24,2026-04-25,SEK 207.50,
+R-5149,Södermalm,E-bike,2 helmets,f,t,t,Completed,,,,2026-05-22,2026-05-26,"SEK 1,519.50",
+R-5123,Central,City bike,1 helmet,f,f,t,Completed,,,,2026-09-06,2026-09-07,SEK 171.00,
+R-5311,Kungsholmen,City bike,No helmets,f,f,t,Completed,,,,2026-08-27,2026-09-01,SEK 966.50,3.0
+R-5016,Södermalm,City bike,1 helmet,t,t,t,Completed,,,,2026-04-14,2026-04-16,SEK 371.00,
+R-5224,Central,E-bike,3 helmets,f,t,f,Completed,,,,2026-06-28,2026-06-29,SEK 462.00,
+R-5358,Södermalm,E-bike,1 helmet,t,f,t,Cancelled,,,,2026-07-25,2026-07-27,,
+R-5229,Östermalm,City bike,3 helmets,f,t,t,Completed,,,,2026-05-06,2026-05-08,SEK 429.00,5.0
+R-5308,Hammarby,City bike,1 child helmet,f,t,f,Completed,,,,2026-04-04,2026-04-05,SEK 253.50,5.0
+R-5398,Kungsholmen,E-bike,2 helmets,f,f,t,Completed,,,,2026-03-27,2026-04-01,"SEK 1,933.00",5.0
+R-5097,Central,City bike,No helmets,f,t,t,No-show,,,,2026-06-01,2026-06-03,SEK 443.00,
+R-5125,Central,Cargo bike,1 helmet,f,t,f,Completed,,,,2026-08-18,2026-08-23,"SEK 2,085.00",5.0
+R-5061,Kungsholmen,Cargo bike,1 child helmet,f,f,t,Completed,,,,2026-04-30,2026-05-03,"SEK 1,425.50",
+R-5081,Östermalm,E-bike,No helmets,f,t,f,Completed,,,,2026-04-23,2026-04-24,SEK 444.50,2.0
+R-5157,Kungsholmen,E-bike,1 helmet,t,t,t,Completed,,,,2026-08-18,2026-08-21,"SEK 1,022.50",5.0
+R-5324,kungsholmen,City bike,1 helmet,f,t,f,No-show,,,,2026-08-25,2026-08-29,SEK 778.00,
+R-5056,Södermalm,E-bike,2 helmets,t,t,t,Completed,,,,2026-09-10,2026-09-16,"SEK 2,044.00",
+R-5019,Östermalm,City bike,3 helmets,t,t,t,Completed,,,,2026-08-25,2026-08-27,SEK 407.50,5.0
+R-5086,Central,Cargo bike,1 helmet,t,t,t,Completed,,,,2026-03-28,2026-04-04,"SEK 2,880.00",5.0
+R-5326,Central,E-bike,2 helmets,f,f,t,Completed,,,,2026-08-02,2026-08-06,"SEK 1,536.50",5.0
+R-5246,Central,City bike,1 child helmet,f,t,t,Completed,,,,2026-04-22,2026-04-26,SEK 789.00,3.0
+R-5137,Östermalm,City bike,2 helmets,f,f,t,Completed,,,,2026-06-13,2026-06-18,SEK 914.00,
+R-5316,Central,City bike,1 helmet,f,t,t,Cancelled,,,,2026-04-26,2026-05-01,,
+R-5034,Kungsholmen,Cargo bike,1 helmet,t,t,t,Completed,,,,2026-05-30,2026-05-31,SEK 465.00,4.0
+R-5296,Hammarby,E-bike,1 child helmet,t,t,f,Completed,,,,2026-07-05,2026-07-06,SEK 406.00,
+R-5138,Kungsholmen,City bike,1 child helmet,t,t,t,Completed,,,,2026-07-20,2026-07-23,SEK 498.50,4.0
+R-5254,Kungsholmen,City bike,2 helmets,f,f,f,Completed,,,,2026-08-30,2026-09-03,SEK 687.00,3.0
+R-5076,Central,Cargo bike,2 helmets,f,t,f,Completed,,,,2026-07-23,2026-07-27,"SEK 2,012.00",3.0
+R-5026,Central,Cargo bike,No helmets,f,t,t,Completed,,,,2026-08-03,2026-08-06,"SEK 1,464.50",3.0
+R-5288,hammarby,City bike,No helmets,t,t,t,Completed,,,,2026-03-01,2026-03-02,SEK 213.00,5.0
+R-5043,Hammarby,City bike,1 helmet,f,t,t,Completed,,,,2026-04-09,2026-04-10,SEK 250.50,
+R-5096,Kungsholmen,E-bike,2 helmets,f,f,f,Completed,,,,2026-08-18,2026-08-20,SEK 849.50,
+R-5083,Hammarby,City bike,2 helmets,f,t,t,Completed,,,,2026-05-24,2026-05-27,SEK 609.00,5.0
+R-5252,Södermalm,Cargo bike,3 helmets,f,f,f,Completed,,,,2026-07-13,2026-07-16,"SEK 1,349.00",5.0
+R-5185,Södermalm,E-bike,1 helmet,f,t,f,Completed,,,,2026-05-21,2026-05-23,SEK 797.00,
+R-5073,Central,City bike,1 helmet,t,t,t,Completed,,,,2026-07-12,2026-07-17,SEK 811.50,5.0
+R-5248,Kungsholmen,City bike,1 helmet,f,t,t,Completed,,,,2026-07-25,2026-07-27,SEK 456.00,5.0
+R-5247,Central,Cargo bike,1 child helmet,f,f,t,Completed,,,,2026-03-29,2026-03-30,SEK 469.50,5.0
+R-5233,Östermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-14,2026-04-16,SEK 472.00,5.0
+R-5271,Östermalm,City bike,1 child helmet,t,f,t,Completed,,,,2026-08-24,2026-08-29,SEK 751.50,4.0
+R-5136,Hammarby,City bike,2 helmets,f,f,t,Cancelled,,,,2026-04-05,2026-04-06,,
+R-5295,Kungsholmen,City bike,1 helmet,f,t,f,Cancelled,,,,2026-07-06,2026-07-08,,
+R-5049,Kungsholmen,E-bike,2 helmets,f,f,f,Completed,,,,2026-05-04,2026-05-09,"SEK 1,819.00",5.0
+R-5207,Södermalm,City bike,No helmets,f,f,t,Completed,,,,2026-08-27,2026-08-28,SEK 198.50,5.0
+R-5389,Södermalm,City bike,1 helmet,t,f,t,Completed,,,,2026-07-15,2026-07-16,SEK 160.00,4.0
+R-5387,Södermalm,City bike,1 helmet,f,f,t,Completed,,,,2026-08-21,2026-08-23,SEK 359.00,3.0
+R-5132,Kungsholmen,City bike,2 helmets,t,t,t,Completed,,,,2026-03-05,2026-03-06,SEK 219.00,
+R-5050,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-05-06,2026-05-11,"SEK 1,083.50",5.0
+R-5238,Kungsholmen,City bike,1 helmet,f,t,t,Completed,,,,2026-08-23,2026-08-27,SEK 794.50,4.0
+R-5052,Kungsholmen,City bike,No helmets,f,t,t,Completed,,,,2026-03-26,2026-03-28,SEK 443.50,4.0
+R-5080,Kungsholmen,Cargo bike,1 helmet,t,f,t,Cancelled,,,,2026-05-07,2026-05-11,,
+R-5031,Hammarby,Cargo bike,1 helmet,f,t,f,Cancelled,,,,2026-06-21,2026-06-23,,
+R-5121,central,E-bike,1 helmet,f,t,f,Completed,,,,2026-06-16,2026-06-21,"SEK 1,964.50",3.0
+R-5211,Östermalm,E-bike,1 helmet,f,f,t,Completed,,,,2026-07-17,2026-07-21,"SEK 1,507.50",3.0
+R-5351,Södermalm,City bike,1 child helmet,f,t,t,Completed,,,,2026-06-22,2026-06-27,"SEK 1,010.00",5.0
+R-5302,Kungsholmen,E-bike,No helmets,f,t,t,Completed,,,,2026-05-18,2026-05-24,"SEK 2,180.50",3.0
+R-5196,Hammarby,E-bike,2 helmets,f,t,t,Completed,,,,2026-08-07,2026-08-12,"SEK 1,818.50",5.0
+R-5088,Kungsholmen,E-bike,1 helmet,f,f,f,Completed,,,,2026-06-08,2026-06-12,"SEK 1,622.00",5.0
+R-5325,Central,E-bike,1 helmet,f,f,t,Completed,,,,2026-05-04,2026-05-09,"SEK 1,930.50",5.0
+R-5323,Kungsholmen,City bike,1 child helmet,f,f,f,Completed,,,,2026-05-15,2026-05-16,SEK 192.00,5.0
+R-5255,Hammarby,City bike,2 helmets,f,f,t,Cancelled,,,,2026-07-01,2026-07-03,,
+R-5058,Central,City bike,No helmets,f,f,t,Completed,,,,2026-07-31,2026-08-03,SEK 596.00,5.0
+R-5033,Östermalm,City bike,1 child helmet,f,t,f,Completed,,,,2026-05-05,2026-05-08,SEK 686.50,1.0
+R-5038,Central,E-bike,2 helmets,f,f,f,Completed,,,,2026-07-11,2026-07-14,"SEK 1,258.00",5.0
+R-5359,Hammarby,E-bike,1 helmet,t,f,t,Completed,,,,2026-04-25,2026-04-29,"SEK 1,366.50",5.0
+R-5051,CENTRAL,E-bike,No helmets,f,f,f,Completed,,,,2026-05-11,2026-05-15,"SEK 1,454.50",5.0
+R-5363,Hammarby,E-bike,1 helmet,t,f,t,Cancelled,,,,2026-04-30,2026-05-06,,
+R-5260,Östermalm,E-bike,No helmets,f,f,t,Completed,,,,2026-03-19,2026-03-20,SEK 414.00,5.0
+R-5102,Hammarby,City bike,No helmets,f,f,f,Completed,,,,2026-05-29,2026-05-31,SEK 380.00,5.0
+R-5195,Kungsholmen,City bike,1 helmet,f,t,f,Completed,,,,2026-08-09,2026-08-12,SEK 609.50,1.0
+R-5167,Södermalm,City bike,2 helmets,f,t,t,Completed,,,,2026-06-25,2026-06-27,SEK 438.50,4.0
+R-5293,Södermalm,City bike,No helmets,t,t,t,No-show,,,,2026-03-29,2026-04-02,SEK 720.00,
+R-5116,Kungsholmen ,E-bike,3 helmets,f,f,t,Completed,,,,2026-08-02,2026-08-06,"SEK 1,628.50",5.0
+R-5124,Östermalm,City bike,2 helmets,f,t,t,Cancelled,,,,2026-09-09,2026-09-11,,
+R-5218,Hammarby,E-bike,1 child helmet,f,,t,Completed,,,,2026-04-16,2026-04-20,"SEK 1,489.00",4.0
+R-5287,Kungsholmen,City bike,No helmets,t,t,t,No-show,,,,2026-07-02,2026-07-03,SEK 230.50,
+R-5319,Central,City bike,1 helmet,t,t,f,Completed,,,,2026-05-15,2026-05-18,SEK 580.00,5.0
+R-5047,Central,City bike,2 helmets,f,t,t,Completed,,,,2026-07-31,2026-08-07,"SEK 1,262.00",4.0
+R-5213,Södermalm,City bike,1 helmet,f,t,t,Completed,,,,2026-04-19,2026-04-20,SEK 251.00,4.0
+R-5397,Östermalm,City bike,1 helmet,f,f,t,Completed,,,,2026-04-08,2026-04-09,SEK 194.50,3.0
+R-5095,Hammarby,City bike,No helmets,f,t,t,Completed,,,,2026-09-08,2026-09-09,SEK 232.50,4.0
+R-5162,Södermalm,City bike,1 helmet,f,t,t,Cancelled,,,,2026-03-15,2026-03-17,,
+R-5263,Central,City bike,No helmets,t,t,t,Completed,,,,2026-09-01,2026-09-04,SEK 508.50,5.0
+R-5360,Central,City bike,1 helmet,f,t,f,Completed,,,,2026-09-13,2026-09-19,"SEK 1,220.00",5.0
+R-5075,Central,City bike,1 helmet,f,t,f,Cancelled,,,,2026-05-10,2026-05-12,,
+R-5299,Kungsholmen,Cargo bike,2 helmets,t,f,t,No-show,,,,2026-07-26,2026-08-02,"SEK 2,748.50",
+R-5022,Östermalm,City bike,1 helmet,t,f,t,Completed,,,,2026-08-20,2026-08-23,SEK 476.50,4.0
+R-5072,Östermalm,City bike,2 helmets,f,f,f,Completed,,,,2026-08-08,2026-08-09,SEK 175.50,4.0
+R-5015,Kungsholmen,City bike,1 helmet,f,f,f,Completed,,,,2026-03-06,2026-03-10,SEK 779.00,5.0
+R-5168,Central,City bike,1 helmet,f,f,f,Completed,,,,2026-08-27,2026-09-01,SEK 964.00,4.0
